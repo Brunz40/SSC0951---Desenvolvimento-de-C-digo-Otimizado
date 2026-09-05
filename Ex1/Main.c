@@ -1,8 +1,8 @@
 #include "Multiplica.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 void Main(){
+    //todo: não contar essa parte do código no profiling
     float A[tamanho][tamanho];
     float B[tamanho][tamanho];
     float** C = malloc(tamanho*sizeof(float));
@@ -18,5 +18,9 @@ void Main(){
         D[i][j] = (float)rand() / (float)(RAND_MAX);
       }
     }
+    //todo: contar desempenho a partir daqui
+    #ifdef DDEBUG
+    //printar resultados de cada algoritmo
 
+    #endif
 }
