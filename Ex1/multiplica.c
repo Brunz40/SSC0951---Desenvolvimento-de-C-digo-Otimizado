@@ -6,7 +6,7 @@ float (*multiplica_simples_estático(float A[tamanho][tamanho] , float B[tamanho
     for (int i=0;i<tamanho;i++){
         for (int j=0;j<tamanho;j++){
             for (int k=0;k<tamanho;k++){
-                resultado[i][k]+=A[i][j]+B[j][k];
+                resultado[i][j]+=A[i][k]*B[k][j];
             }
         }
     }
@@ -21,7 +21,7 @@ float (*multiplica_unroll_estático(float A[tamanho][tamanho], float B[tamanho][
     for (int j = 0; j < tamanho; j++) {
 #pragma unroll 256 / sizeof(float) // todo: verificar se pode usar pragma
       for (int k = 0; k < tamanho; k++) {
-        resultado[i][k] += A[i][j] + B[j][k];
+        resultado[i][k] += A[i][j] * B[j][k];
       }
     }
   }
@@ -35,7 +35,7 @@ float (*multiplica_interchange_estático(float A[tamanho][tamanho], float B[tama
   for (int i = 0; i < tamanho; i++) {
     for (int k = 0; k < tamanho; k++) {
       for (int j = 0; j < tamanho; j++) {
-        resultado[i][k] += A[i][j] + B[j][k];
+        resultado[i][k] += A[i][j] * B[j][k];
       }
     }
   }
@@ -50,7 +50,7 @@ float (*multiplica_tiling_estático(float A[tamanho][tamanho], float B[tamanho][
   for (int i = 0; i < tamanho; i++) {
     for (int j = 0; j < tamanho; j++) {
       for (int k = 0; k < tamanho; k++) {
-        resultado[i][k] += A[i][j] + B[j][k];
+        resultado[i][k] += A[i][j] * B[j][k];
       }
     }
   }
