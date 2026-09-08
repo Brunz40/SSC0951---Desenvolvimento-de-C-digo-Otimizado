@@ -1,0 +1,146 @@
+{
+  "L1-dcache-loads": {
+    "q0": 2764506903.1000004,
+    "n_por_celula": 10,
+    "sse": 35141285478232.0,
+    "sst": 4.502972501431976e+18,
+    "residuo_pct_total": 0.0007804019559758988,
+    "fatores": {
+      "tecnica": {
+        "q": -1292050.5,
+        "efeito": -2584101.0,
+        "ss": 66775779782010.0,
+        "influencia_pct_total": 0.0014829266614613979,
+        "influencia_pct_entre_medias": 0.001482938234340384
+      },
+      "alocacao": {
+        "q": 335517159.70000005,
+        "efeito": 671034319.4000001,
+        "ss": 4.5028705781262136e+18,
+        "influencia_pct_total": 99.99773653279628,
+        "influencia_pct_entre_medias": 99.99851692317826
+      },
+      "interacao": {
+        "q": 12490.5,
+        "efeito": 24981.0,
+        "ss": 6240503610.0,
+        "influencia_pct_total": 1.385863139962653e-07,
+        "influencia_pct_entre_medias": 1.3858739553501073e-07
+      }
+    },
+    "experimentos": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "L1-dcache-load-misses": {
+    "q0": 74077195.575,
+    "n_por_celula": 10,
+    "sse": 6978136850542.899,
+    "sst": 1.708310772759489e+17,
+    "residuo_pct_total": 0.004084816979331514,
+    "fatores": {
+      "tecnica": {
+        "q": -65322429.175,
+        "efeito": -130644858.35,
+        "ss": 1.7068079013291565e+17,
+        "influencia_pct_total": 99.9120258764215,
+        "influencia_pct_entre_medias": 99.91610726653619
+      },
+      "alocacao": {
+        "q": 1365454.474999994,
+        "efeito": 2730908.949999988,
+        "ss": 74578636931900.38,
+        "influencia_pct_total": 0.043656364006550825,
+        "influencia_pct_entre_medias": 0.043658147361967124
+      },
+      "interacao": {
+        "q": -1310823.8749999963,
+        "efeito": -2621647.7499999925,
+        "ss": 68730369250800.234,
+        "influencia_pct_total": 0.04023294259262784,
+        "influencia_pct_entre_medias": 0.04023458610183249
+      }
+    },
+    "experimentos": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "branch-instructions": {
+    "q0": 101848621.4,
+    "n_por_celula": 10,
+    "sse": 343120.2,
+    "sst": 4.468493159571216e+16,
+    "residuo_pct_total": 7.678655594784996e-10,
+    "fatores": {
+      "tecnica": {
+        "q": -33423394.35,
+        "efeito": -66846788.7,
+        "ss": 4.468493159502448e+16,
+        "influencia_pct_total": 99.99999999846105,
+        "influencia_pct_entre_medias": 99.99999999922892
+      },
+      "alocacao": {
+        "q": 14.0,
+        "efeito": 28.0,
+        "ss": 7840.0,
+        "influencia_pct_total": 1.754506434279135e-11,
+        "influencia_pct_entre_medias": 1.7545064342926073e-11
+      },
+      "interacao": {
+        "q": 91.75,
+        "efeito": 183.5,
+        "ss": 336722.5,
+        "influencia_pct_total": 7.535482051231582e-10,
+        "influencia_pct_entre_medias": 7.535482051289444e-10
+      }
+    },
+    "experimentos": [
+      1,
+      2,
+      5,
+      6
+    ]
+  },
+  "branch-misses": {
+    "q0": 265636.15,
+    "n_por_celula": 10,
+    "sse": 4642157.2,
+    "sst": 6525527.1,
+    "residuo_pct_total": 71.1384249710648,
+    "fatores": {
+      "tecnica": {
+        "q": -120.84999999999127,
+        "efeito": -241.69999999998254,
+        "ss": 584188.8999999156,
+        "influencia_pct_total": 8.952363403715168,
+        "influencia_pct_entre_medias": 31.018277397336824
+      },
+      "alocacao": {
+        "q": 16.650000000023283,
+        "efeito": 33.300000000046566,
+        "ss": 11088.900000031012,
+        "influencia_pct_total": 0.16993110027894928,
+        "influencia_pct_entre_medias": 0.5887797187388186
+      },
+      "interacao": {
+        "q": 179.4499999999971,
+        "efeito": 358.8999999999942,
+        "ss": 1288092.0999999582,
+        "influencia_pct_total": 19.739280524939637,
+        "influencia_pct_entre_medias": 68.39294288392435
+      }
+    },
+    "experimentos": [
+      1,
+      2,
+      5,
+      6
+    ]
+  }
+}
