@@ -1,0 +1,19 @@
+[
+  "/home/fersuaiden/Área de trabalho/Faculdade/DCO/ATIVIDADE2/.ferramentas/perf/usr/bin/perf",
+  "stat",
+  "--delay=-1",
+  "--control",
+  "fd:4,7",
+  "-x",
+  ";",
+  "-o",
+  "/home/fersuaiden/Área de trabalho/Faculdade/DCO/ATIVIDADE2/SSC0951---Desenvolvimento-de-C-digo-Otimizado/dados/coleta_vscode/brutos/011_r02_e5.perf.csv",
+  "-e",
+  "{L1-dcache-loads:u,L1-dcache-load-misses:u,branch-instructions:u,branch-misses:u}",
+  "--",
+  "taskset",
+  "-c",
+  "2",
+  "/home/fersuaiden/Área de trabalho/Faculdade/DCO/ATIVIDADE2/SSC0951---Desenvolvimento-de-C-digo-Otimizado/Ex1/build/multiplicacao",
+  "5"
+]

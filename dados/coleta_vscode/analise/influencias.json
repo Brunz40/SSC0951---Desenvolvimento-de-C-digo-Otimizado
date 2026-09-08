@@ -1,0 +1,146 @@
+{
+  "L1-dcache-loads": {
+    "q0": 2764705485.125,
+    "n_por_celula": 10,
+    "sse": 19505508614811.9,
+    "sst": 4.4916571204943206e+18,
+    "residuo_pct_total": 0.00043426085499298435,
+    "fatores": {
+      "tecnica": {
+        "q": -1623943.3250000477,
+        "efeito": -3247886.6500000954,
+        "ss": 105487676912488.42,
+        "influencia_pct_total": 0.0023485246999637227,
+        "influencia_pct_entre_medias": 0.002348534898731455
+      },
+      "alocacao": {
+        "q": 335094182.9749999,
+        "efeito": 670188365.9499998,
+        "ss": 4.4915244585473085e+18,
+        "influencia_pct_total": 99.9970464809879,
+        "influencia_pct_entre_medias": 99.99748073090275
+      },
+      "interacao": {
+        "q": 437857.3250000477,
+        "efeito": 875714.6500000954,
+        "ss": 7668761482247.8955,
+        "influencia_pct_total": 0.00017073345708552045,
+        "influencia_pct_entre_medias": 0.0001707341985173108
+      }
+    },
+    "experimentos": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "L1-dcache-load-misses": {
+    "q0": 73885223.94999999,
+    "n_por_celula": 10,
+    "sse": 2131955629816.8003,
+    "sst": 1.699575830791294e+17,
+    "residuo_pct_total": 0.001254404535056372,
+    "fatores": {
+      "tecnica": {
+        "q": -65162354.85,
+        "efeito": -130324709.7,
+        "ss": 1.6984529958389274e+17,
+        "influencia_pct_total": 99.93393440104145,
+        "influencia_pct_entre_medias": 99.93518799257174
+      },
+      "alocacao": {
+        "q": 1197994.0500000045,
+        "efeito": 2395988.100000009,
+        "ss": 57407589753416.53,
+        "influencia_pct_total": 0.033777598335632084,
+        "influencia_pct_entre_medias": 0.03377802204867251
+      },
+      "interacao": {
+        "q": -1148302.5500000045,
+        "efeito": -2296605.100000009,
+        "ss": 52743949853460.51,
+        "influencia_pct_total": 0.031033596087856705,
+        "influencia_pct_entre_medias": 0.03103398537957671
+      }
+    },
+    "experimentos": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "branch-instructions": {
+    "q0": 101847821.275,
+    "n_por_celula": 10,
+    "sse": 988440.5,
+    "sst": 4.468487765091005e+16,
+    "residuo_pct_total": 2.212024631066366e-09,
+    "fatores": {
+      "tecnica": {
+        "q": -33423374.175,
+        "efeito": -66846748.35,
+        "ss": 4.468487764968228e+16,
+        "influencia_pct_total": 99.99999999725239,
+        "influencia_pct_entre_medias": 99.9999999994644
+      },
+      "alocacao": {
+        "q": -71.47499999403954,
+        "efeito": -142.94999998807907,
+        "ss": 204347.02496591807,
+        "influencia_pct_total": 4.5730689152229636e-10,
+        "influencia_pct_entre_medias": 4.573068915324121e-10
+      },
+      "interacao": {
+        "q": 29.574999999254942,
+        "efeito": 59.149999998509884,
+        "ss": 34987.224998237194,
+        "influencia_pct_total": 7.829768556505076e-11,
+        "influencia_pct_entre_medias": 7.829768556678273e-11
+      }
+    },
+    "experimentos": [
+      1,
+      2,
+      5,
+      6
+    ]
+  },
+  "branch-misses": {
+    "q0": 264245.225,
+    "n_por_celula": 10,
+    "sse": 3083721.1,
+    "sst": 3277242.9749999996,
+    "residuo_pct_total": 94.0949793324372,
+    "fatores": {
+      "tecnica": {
+        "q": -35.375,
+        "efeito": -70.75,
+        "ss": 50055.625,
+        "influencia_pct_total": 1.5273699686548265,
+        "influencia_pct_entre_medias": 25.865615967179103
+      },
+      "alocacao": {
+        "q": 12.47500000000582,
+        "efeito": 24.95000000001164,
+        "ss": 6225.025000005809,
+        "influencia_pct_total": 0.1899470087354695,
+        "influencia_pct_entre_medias": 3.2167035380387192
+      },
+      "interacao": {
+        "q": 58.57500000001164,
+        "efeito": 117.15000000002328,
+        "ss": 137241.22500005455,
+        "influencia_pct_total": 4.187703690174347,
+        "influencia_pct_entre_medias": 70.91768049478218
+      }
+    },
+    "experimentos": [
+      1,
+      2,
+      5,
+      6
+    ]
+  }
+}

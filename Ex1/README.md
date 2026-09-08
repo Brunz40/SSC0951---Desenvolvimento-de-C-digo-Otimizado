@@ -26,7 +26,7 @@ As estáticas são contíguas e as dinâmicas usam uma alocação por linha. A s
 é fornecida pelo chamador e zerada a cada chamada. As matrizes de entrada e
 saída devem ser distintas. O custo de zerar a saída integra a medição.
 
-## Executar a partir da raiz do repositório
+## Comandos
 
 ```sh
 make

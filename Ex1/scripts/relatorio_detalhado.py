@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Gera o PDF a partir da análise calculada, sem números transcritos à mão."""
 import argparse
+import csv
 import json
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from xml.sax.saxutils import escape
 import matplotlib
@@ -26,6 +29,36 @@ def main():
     analysis = source / 'analise'
     data = json.loads((analysis / 'analise.json').read_text())
     meta = json.loads((source / 'metadados.json').read_text())
+    data_coleta = datetime.fromisoformat(meta['inicio_utc']).astimezone(ZoneInfo('America/Sao_Paulo')).strftime('%d/%m/%Y')
+    nota_ambiente = meta.get('condicao_informada_pelo_usuario', '')
+    registros = [meta.get('ambiente_inicio', {}), meta.get('ambiente_fim', {})]
+    if all(r.get('processos') for r in registros):
+        condicao = 'Os processos foram registrados no início e no fim da coleta. '
+        navegadores = {'firefox', 'chrome', 'chromium', 'brave', 'opera'}
+        comuns = set.intersection(*[{line.split()[1] for line in r['processos'].splitlines()
+                                    if len(line.split()) >= 2} for r in registros]) & navegadores
+        if comuns:
+            condicao += 'O processo ' + ', '.join(sorted(comuns)) + ' apareceu nos dois registros. '
+        bateria = all(any(k.endswith('/status') and v == 'Discharging'
+                          for k, v in r.get('alimentacao', {}).items()) for r in registros)
+        if bateria:
+            condicao += 'O notebook estava na bateria nos dois momentos. '
+        condicao += 'Esses registros não medem a carga instantânea de cada aplicativo. '
+    else:
+        condicao = 'Não foram registrados os aplicativos abertos nesta coleta. '
+    if nota_ambiente:
+        condicao += 'Condição informada pelo operador: ' + escape(nota_ambiente) + '. '
+    with (source / 'medicoes.csv').open() as arquivo:
+        medicoes = list(csv.DictReader(arquivo))
+    tempos_rodadas = {}
+    for linha in medicoes:
+        tempos_rodadas.setdefault(int(linha['rodada']), []).append(float(linha['tempo_segundos']))
+    medias_rodadas = {r: sum(v) / len(v) for r, v in tempos_rodadas.items()}
+    primeira_rodada = medias_rodadas[min(medias_rodadas)]
+    rodadas_finais = [v for r, v in medias_rodadas.items() if r >= 3]
+    media_final = sum(rodadas_finais) / len(rodadas_finais)
+    brutos_nome = 'brutos.zip' if (source / 'brutos.zip').exists() else 'brutos/'
+    fontes_nome = 'fontes.zip' if (source / 'fontes.zip').exists() else 'fontes/'
     stats = {(r['experimento'], r['metrica']): r for r in data['resumo']}
     effects = data['influencias']
     if not (analysis / 'validacao_R.txt').is_file():
@@ -80,10 +113,10 @@ def main():
         return f"{f(s['media']/divisor,decimals)} ± {f(s['margem_ic95']/divisor,decimals)}"
 
     p('Anexo técnico:<br/>multiplicação de matrizes', 'TituloDCO')
-    p('<b>SSC0951 — Desenvolvimento de Código Otimizado</b><br/>Atividade relativa à aula 3 • Coleta: 07/09/2026 • Entrega prevista: 09/09/2026')
+    p(f'<b>SSC0951 — Desenvolvimento de Código Otimizado</b><br/>Coleta: {data_coleta} • Entrega prevista: 09/09/2026')
     p(escape(args.integrantes))
     title('1. Objetivo e configurações')
-    p('Comparar quatro implementações seriais de multiplicação de matrizes com dois modos de alocação, medindo tempo, leituras e faltas em L1 de dados, instruções de desvio e erros de predição. O enunciado define oito experimentos [1]; a operação e as transformações seguem a aula 3, páginas 14–17 [2].')
+    p('Comparar quatro implementações seriais de multiplicação de matrizes com dois modos de alocação, medindo tempo, leituras e faltas em L1 de dados, instruções de desvio e erros de predição. O enunciado define oito experimentos [1]; as versões calculam a mesma multiplicação, alterando a ordem e a organização dos laços.')
     table([['Exp.', 'Técnica', 'Alocação', 'Laços / transformação'],
            ['1','Simples','Estática','i → j → k'], ['2','Simples','Dinâmica','i → j → k'],
            ['3','Interchange','Estática','i → k → j'], ['4','Interchange','Dinâmica','i → k → j'],
@@ -109,7 +142,7 @@ def main():
     p('<b>Transformações.</b> Interchange troca os laços j e k. Unrolling expande duas operações consecutivas do laço k e trata o resto ímpar. Tiling percorre blocos nas três dimensões, preserva i-j-k dentro deles e limita as bordas. Não se utilizam pragmas, OpenMP ou paralelismo.')
     p('<b>Escopo.</b> O cronômetro CLOCK_MONOTONIC mede zeramento da saída e multiplicação. O perf inicia desativado; o programa envia enable, aguarda confirmação, cronometra o cálculo e envia disable. Os contadores incluem um pequeno custo de controle e leitura do relógio ao redor do cálculo, mas excluem geração das entradas, alocação, checksum e impressão [3].')
     p('<b>Eventos.</b> L1-dcache-loads:u, L1-dcache-load-misses:u, branch-instructions:u e branch-misses:u foram agrupados e medidos apenas em modo usuário. Todos tiveram cobertura de 100%, sem multiplexação. Não houve alteração de permissões do kernel (perf_event_paranoid=2).')
-    p('<b>Ordem e repetições.</b> Dez rodadas, cada uma contendo E1–E8 em ordem sorteada com semente 9512026. O piloto de oito execuções foi excluído da amostra definitiva. Cada observação usa um processo novo, sem chamada de aquecimento interna. A primeira escrita na saída integra a medição. Nenhuma observação definitiva foi descartada.')
+    p('<b>Ordem e repetições.</b> Dez rodadas, cada uma contendo E1–E8 em ordem sorteada com semente 9512026. Execuções exploratórias anteriores não integram a amostra de 80 medições. Cada observação usa um processo novo, sem chamada de aquecimento interna. A primeira escrita na saída integra a medição. Nenhuma observação definitiva foi descartada.')
 
     page()
     title('3. Validação e tratamento estatístico')
@@ -155,7 +188,7 @@ def main():
           [[str(e),estimate(e,'branch-instructions',1e6,5),estimate(e,'branch-misses',1e3,3)] for e in range(1,9)],
           [35,(width-35)/2,(width-35)/2])
     p(f'O unrolling reduziu as instruções de desvio de cerca de {f(mean(1,"branch-instructions")/1e6,3)} para {f(mean(5,"branch-instructions")/1e6,3)} milhões: <b>{f(reduction(mean(1,"branch-instructions"),mean(5,"branch-instructions")),2)}%</b> na alocação estática e {f(reduction(mean(2,"branch-instructions"),mean(6,"branch-instructions")),2)}% na dinâmica. Isso é coerente com metade das iterações de controle do laço k, preservando as multiplicações.')
-    p(f'Os erros de predição de E1,E2,E5,E6 ficaram próximos de 265–266 mil. Assim, diminuir quase pela metade o total de desvios não reduziu os erros na mesma proporção. A razão entre as médias de misses e instructions passou de {f(100*mean(1,"branch-misses")/mean(1,"branch-instructions"),3)}% em E1 para {f(100*mean(5,"branch-misses")/mean(5,"branch-instructions"),3)}% em E5; essa taxa é descritiva, sem IC específico.')
+    p(f'Os erros de predição de E1,E2,E5,E6 ficaram próximos de {f(sum(mean(e,"branch-misses") for e in [1,2,5,6])/4000,1)} mil. Assim, diminuir quase pela metade o total de desvios não reduziu os erros na mesma proporção. A razão entre as médias de misses e instructions passou de {f(100*mean(1,"branch-misses")/mean(1,"branch-instructions"),3)}% em E1 para {f(100*mean(5,"branch-misses")/mean(5,"branch-instructions"),3)}% em E5; essa taxa é descritiva, sem IC específico.')
     p('Tiling aumentou o total de instruções de desvio devido aos laços de blocagem, mas apresentou menos erros de predição. A mudança no padrão de controle pode explicar parte do comportamento. Como cache, acessos e controle mudam conjuntamente, uma só contagem não explica o tempo final.')
 
     page()
@@ -189,25 +222,26 @@ def main():
     title('9. Efeitos principais e interação — branch')
     figure('efeitos_interacoes_branch', 'Figura 6 — E1,E2,E5,E6. Médias marginais e interação. As barras à direita são IC95% individuais; os eixos verticais têm escalas próprias.', 355)
     p('Em branch instructions, o efeito do unrolling é grande nas duas alocações. As médias estática e dinâmica praticamente coincidem quando a técnica é fixada. A pequena inclinação do painel central decorre de diferenças de poucas dezenas de eventos sobre dezenas de milhões, e não de uma alteração relevante no total de desvios.')
-    p('Em branch misses, as linhas da interação se cruzam: o unrolling diminuiu a média na alocação estática e aumentou ligeiramente a média na dinâmica. As diferenças são pequenas em escala absoluta e seus intervalos apresentam sobreposição. A decomposição com réplicas atribui 71,14% da variação total ao resíduo; não se afirma uma melhora geral dos erros de predição.')
-    p('A Figura 6 ajuda a interpretar por que a interação corresponde a 68,39% quando o denominador inclui apenas a variação entre quatro médias, mas a 19,74% quando inclui também a variação entre execuções. O script de apoio usa o primeiro denominador. Ambos foram mantidos e identificados para evitar confundir influência relativa com tamanho do ganho.')
+    p(f'Em branch misses, as linhas da interação se cruzam: o unrolling diminuiu a média na alocação estática e aumentou ligeiramente a média na dinâmica. As diferenças são pequenas em escala absoluta e seus intervalos apresentam sobreposição. A decomposição com réplicas atribui {f(effects["branch-misses"]["residuo_pct_total"],2)}% da variação total ao resíduo; não se afirma uma melhora geral dos erros de predição.')
+    p(f'A Figura 6 ajuda a interpretar por que a interação corresponde a {f(effects["branch-misses"]["fatores"]["interacao"]["influencia_pct_entre_medias"],2)}% quando o denominador inclui apenas a variação entre quatro médias, mas a {f(effects["branch-misses"]["fatores"]["interacao"]["influencia_pct_total"],2)}% quando inclui também a variação entre execuções. O script de apoio usa o primeiro denominador. Ambos foram mantidos e identificados para evitar confundir influência relativa com tamanho do ganho.')
     p('A execução em R também produziu efeitos_interacoes_R.pdf com os gráficos básicos de efeitos e interação, além das tabelas ANOVA e dos coeficientes. As figuras deste relatório utilizam os mesmos dados, com apresentação em Matplotlib e ICs adicionados aos painéis de interação.', 'Pequeno')
 
     page()
     title('10. Variabilidade, limites e conclusões')
     figure('rodadas','Figura 7 — As primeiras observações de alguns experimentos foram mais lentas e foram preservadas.',200)
-    p('A afinidade reduz migrações entre núcleos, mas não elimina disputa com processos do sistema, uso da CPU irmã, variação de frequência ou efeitos térmicos. A coleta ocorreu em um computador de uso geral, com boost ativo e sem isolamento do núcleo. A ordem sorteada distribui parte desses efeitos, mas não garante independência perfeita.')
-    p('Os ICs t pressupõem observações suficientemente independentes e distribuição das médias adequadamente aproximada; com dez repetições, assimetria e variações de estado da máquina podem afetar essa aproximação. E1, E6 e E7 tiveram intervalos mais largos. Não foram removidos valores extremos, nem feitas repetições seletivas.')
+    p(f'A primeira rodada teve média de {f(primeira_rodada,3)} s por execução; da terceira em diante, {f(media_final,3)} s. A mudança sugere condições de execução diferentes durante a campanha. Os dados não incluem frequência, temperatura e carga por execução, portanto não permitem determinar a causa. Nenhuma observação foi removida.')
+    p(f'A afinidade reduz migrações entre núcleos, mas não elimina disputa com processos do sistema, uso da CPU irmã, variação de frequência ou efeitos térmicos. {condicao} O boost permaneceu ativo e o núcleo não foi isolado. A ordem sorteada distribui parte desses efeitos, mas não garante independência perfeita.')
+    p('Os ICs t pressupõem observações suficientemente independentes e distribuição das médias adequadamente aproximada; com dez repetições, assimetria e variações de estado da máquina podem afetar essa aproximação. Os intervalos refletem também a mudança de tempo observada durante a campanha; a hipótese de condições estáveis fica enfraquecida. Não foram removidos valores extremos, nem feitas repetições seletivas.')
     p('N=512 gera três matrizes de aproximadamente 3 MiB no total, acima da L1d e L2 de um núcleo. BLOCO=32 e fator de unrolling 2 foram fixados, sem busca pelo melhor ajuste. A dimensão é potência de dois e pode acentuar conflitos de cache. Os resultados não descrevem todos os tamanhos e blocos possíveis.')
     p('As medições incluem zeramento e primeira escrita da saída; excluem o tempo de malloc/free e usam apenas eventos de usuário. Portanto, a comparação de alocação avalia principalmente os acessos e a disposição das matrizes, não o custo total de criação de estruturas. Os percentuais de influência dependem dos níveis e subconjuntos escolhidos.')
     p('<b>Conclusões.</b> Interchange estático apresentou o menor tempo médio e reduziu fortemente as faltas de L1. Unrolling diminuiu as instruções de desvio em aproximadamente metade, mas isso não garantiu melhora no caso dinâmico. Tiling dependeu fortemente da disposição em memória. A análise com réplicas mostrou que a variação em branch misses foi dominada pelo resíduo, exigindo cautela para atribuir efeitos aos fatores.')
 
     page()
     title('11. Reprodutibilidade e referências')
-    p('Os dados desta versão estão em <b>dados/coleta_2026-09-07/</b>. O diretório contém medicoes.csv (80 linhas), metadados.json (máquina, versões, ordem e hashes), brutos.zip (saída original do perf e do programa) e fontes.zip (cópia dos arquivos usados na coleta).')
+    p(f'Os dados desta versão estão em <b>{source.parent.name}/{source.name}/</b>. O diretório contém medicoes.csv (80 linhas), metadados.json (máquina, versões, ordem e hashes), {brutos_nome} (saída original do perf e do programa) e {fontes_nome} (cópia dos arquivos usados na coleta).')
     p('Em analise/: resumo.csv contém as 40 combinações experimento/métrica com média, desvio, limites do IC, mínimo, máximo e CV; influencias.csv e influencias.json guardam os efeitos e somas de quadrados; graficos/ contém PNG e PDF vetorial. O piloto está preservado em historico/piloto.zip e não entra nos cálculos.')
-    p('Os programas de coleta, análise e geração do relatório estão em scripts/. Para reproduzir a análise dos dados existentes, a partir de Ex1:', 'Texto')
-    p('make relatorio COLETA=../dados/coleta_2026-09-07', 'Pequeno')
+    p('Os programas de coleta, análise e geração do relatório estão em scripts/. Para recalcular a análise dos dados existentes:', 'Texto')
+    p(f'make relatorio COLETA=../{source.parent.name}/{source.name}', 'Pequeno')
     p('Uma nova coleta deve usar um diretório novo, após compilar com TAMANHO=512 e BLOCO=32. O coletor recusa sobrescrever uma coleta existente e exige pelo menos dez rodadas no modo definitivo. Um arquivo de dados incompleto, checksum divergente, contador indisponível ou multiplexado interrompe a validação.')
     p('A instalação do perf no sistema exigiu senha; utilizou-se o pacote Fedora perf-7.1.13-100.fc43.x86_64, com assinatura verificada, extraído em .ferramentas/perf/. Não foram alterados pacotes do sistema ou permissões de contadores. O ambiente Python local usa NumPy 2.2.6 compatível com SciPy 1.14.1. A conferência em R 4.5.3 utiliza uma cópia local do pacote oficial R-core e da biblioteca tre; não exige FrF2, pois as quatro combinações são explicitadas.')
     title('Referências')
@@ -230,7 +264,7 @@ def main():
         canvas.saveState()
         canvas.setFont('DCO',7)
         canvas.setFillColor(colors.HexColor('#596579'))
-        canvas.drawString(42,26,'SSC0951 • Coleta: 07/09/2026 • Revisão: 08/09/2026')
+        canvas.drawString(42,26,f'SSC0951 • Coleta: {data_coleta}')
         canvas.drawRightString(A4[0]-42,26,str(doc.page))
         canvas.restoreState()
     SimpleDocTemplate(str(pdf),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=38,bottomMargin=42,

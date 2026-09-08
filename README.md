@@ -5,7 +5,7 @@
 
 ## O que abrir
 
-- **[Relatório para entrega](entrega/Relatorio_Atividade2.pdf)** — versão resumida com os resultados exigidos.
+- **[Relatório para entrega](entrega/Relatorio_Atividade2.pdf)** — resultados dos oito experimentos.
 - [Anexo técnico](entrega/Anexo_tecnico.pdf) — explicações completas, efeitos principais, interações e reprodução.
 
 ## Organização
@@ -22,9 +22,7 @@ estatísticas e gráficos. Os arquivos originais do perf estão em `brutos.zip`
 e as fontes usadas na coleta, em `fontes.zip`. Não é necessário extrair os
 ZIPs para recalcular a análise ou gerar o relatório.
 
-## Comandos principais
-
-Execute na raiz deste repositório:
+## Comandos
 
 ```sh
 make teste                 # verifica as oito implementações
@@ -32,9 +30,10 @@ make executar EXPERIMENTO=3
 make relatorio             # recalcula a análise, confere em R e gera os dois PDFs
 ```
 
-O número do experimento vai de 1 a 8, na ordem do enunciado. Os PDFs são
-reconstruídos usando os dados existentes; `make relatorio` não refaz a coleta.
+O número do experimento vai de 1 a 8, na ordem do enunciado. Os PDFs usam os dados salvos; `make relatorio` não refaz a coleta.
 Os nomes e números USP ficam em `Ex1/integrantes.json`.
 
 Para mais detalhes: [instruções do código e da coleta](Ex1/README.md).
 As medições e conclusões se referem à máquina e ao protocolo descritos no PDF.
+
+[Como medir e conferir os resultados com perf](Ex1/PERF.md).

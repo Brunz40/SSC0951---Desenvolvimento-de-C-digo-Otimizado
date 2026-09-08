@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Gera o PDF a partir da análise calculada, sem números transcritos à mão."""
 import argparse
+import csv
 import json
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from xml.sax.saxutils import escape
 import matplotlib
@@ -26,6 +29,36 @@ def main():
     analysis = source / 'analise'
     data = json.loads((analysis / 'analise.json').read_text())
     meta = json.loads((source / 'metadados.json').read_text())
+    data_coleta = datetime.fromisoformat(meta['inicio_utc']).astimezone(ZoneInfo('America/Sao_Paulo')).strftime('%d/%m/%Y')
+    nota_ambiente = meta.get('condicao_informada_pelo_usuario', '')
+    registros = [meta.get('ambiente_inicio', {}), meta.get('ambiente_fim', {})]
+    if all(r.get('processos') for r in registros):
+        condicao = 'Os processos foram registrados no início e no fim da coleta. '
+        navegadores = {'firefox', 'chrome', 'chromium', 'brave', 'opera'}
+        comuns = set.intersection(*[{line.split()[1] for line in r['processos'].splitlines()
+                                    if len(line.split()) >= 2} for r in registros]) & navegadores
+        if comuns:
+            condicao += 'O processo ' + ', '.join(sorted(comuns)) + ' apareceu nos dois registros. '
+        bateria = all(any(k.endswith('/status') and v == 'Discharging'
+                          for k, v in r.get('alimentacao', {}).items()) for r in registros)
+        if bateria:
+            condicao += 'O notebook estava na bateria nos dois momentos. '
+        condicao += 'Esses registros não medem a carga instantânea de cada aplicativo. '
+    else:
+        condicao = 'Não foram registrados os aplicativos abertos nesta coleta. '
+    if nota_ambiente:
+        condicao += 'Condição informada pelo operador: ' + escape(nota_ambiente) + '. '
+    with (source / 'medicoes.csv').open() as arquivo:
+        medicoes = list(csv.DictReader(arquivo))
+    tempos_rodadas = {}
+    for linha in medicoes:
+        tempos_rodadas.setdefault(int(linha['rodada']), []).append(float(linha['tempo_segundos']))
+    medias_rodadas = {r: sum(v) / len(v) for r, v in tempos_rodadas.items()}
+    primeira_rodada = medias_rodadas[min(medias_rodadas)]
+    rodadas_finais = [v for r, v in medias_rodadas.items() if r >= 3]
+    media_final = sum(rodadas_finais) / len(rodadas_finais)
+    brutos_nome = 'brutos.zip' if (source / 'brutos.zip').exists() else 'brutos/'
+    fontes_nome = 'fontes.zip' if (source / 'fontes.zip').exists() else 'fontes/'
     stats = {(r['experimento'], r['metrica']): r for r in data['resumo']}
     effects = data['influencias']
     if not (analysis / 'validacao_R.txt').is_file():
@@ -80,11 +113,11 @@ def main():
         return f"{f(s['media']/divisor,decimals)} ± {f(s['margem_ic95']/divisor,decimals)}"
 
     p('Multiplicação de matrizes<br/>e análise de desempenho', 'TituloDCO')
-    p('<b>SSC0951 — Desenvolvimento de Código Otimizado</b><br/>Atividade relativa à aula 3 • Coleta: 07/09/2026')
+    p(f'<b>SSC0951 — Desenvolvimento de Código Otimizado</b><br/>Coleta: {data_coleta}')
     for pessoa in pessoas:
         p(f"<b>{escape(pessoa['nome'])}</b> — Nº USP {escape(pessoa['numero_usp'])}")
     title('1. O que foi feito')
-    p('Foram comparadas quatro implementações seriais da multiplicação de matrizes, cada uma com alocação estática e dinâmica, totalizando os oito experimentos do enunciado [1]. O cálculo segue a aula 3 [2]: cada elemento da saída soma os produtos de uma linha de A por uma coluna de B.')
+    p('Foram comparadas quatro implementações seriais da multiplicação de matrizes, cada uma com alocação estática e dinâmica, totalizando os oito experimentos do enunciado [1]. Cada elemento da saída soma os produtos de uma linha de A por uma coluna de B.')
     table([['Estática','Dinâmica','Técnica','Implementação'],
            ['E1','E2','Simples','Laços i → j → k'],
            ['E3','E4','Interchange','Troca para i → k → j'],
@@ -121,7 +154,7 @@ def main():
         rows.append([f'E{e}',count_cell(e,'L1-dcache-loads',1e6),count_cell(e,'L1-dcache-load-misses',1e6),count_cell(e,'branch-instructions',1e6,5),count_cell(e,'branch-misses',1e3)])
     table(rows,[31]+[(width-31)/4]*4)
     p('<b>Cache:</b> interchange reduziu as faltas de L1 em cerca de 94% nas duas alocações, coerente com o acesso sequencial às linhas de B e da saída. Tiling teve comportamento diferente entre as alocações: E7 manteve muitas faltas e E8 reduziu-as fortemente. Conflitos de cache associados ao passo das linhas são uma hipótese, ainda não comprovada.')
-    p('<b>Desvios:</b> unrolling reduziu as instruções de desvio em aproximadamente 49%, mas os erros de predição ficaram próximos de 265–266 mil. Portanto, menos desvios não significaram redução proporcional dos erros nem ganho garantido de tempo.')
+    p(f'<b>Desvios:</b> unrolling reduziu as instruções de desvio em aproximadamente 49%, mas os erros de predição ficaram próximos de {f(sum(mean(e,"branch-misses") for e in [1,2,5,6])/4000,1)} mil. Portanto, menos desvios não significaram redução proporcional dos erros nem ganho garantido de tempo.')
 
     page()
     title('4. Influência da técnica, alocação e interação')
@@ -141,15 +174,16 @@ def main():
         rows.append([name]+[f(x['fatores'][factor]['influencia_pct_total'],3) for factor in ['tecnica','alocacao','interacao']]+[f(x['residuo_pct_total'],3)])
     table(rows,[115]+[(width-115)/4]*4)
     p('Tabela 4 — Com réplicas: SQfator = 4·10·q²; SQerro soma os desvios quadráticos dentro de cada combinação. Percentuais divididos pela soma de quadrados total. Valores muito pequenos podem arredondar para 0,000%.', 'Pequeno')
-    p('<b>Interpretação:</b> a alocação domina a variação das leituras de L1; a técnica domina as faltas de L1 e o total de instruções de desvio. Em branch misses, 71,14% da variação total é resíduo entre execuções. Por isso, os 68,39% de interação da Tabela 3 não devem ser entendidos como grande ganho ou evidência forte de efeito.')
+    p(f'<b>Interpretação:</b> a alocação domina a variação das leituras de L1; a técnica domina as faltas de L1 e o total de instruções de desvio. Em branch misses, {f(effects["branch-misses"]["residuo_pct_total"],2)}% da variação total é resíduo entre execuções. Por isso, os {f(effects["branch-misses"]["fatores"]["interacao"]["influencia_pct_entre_medias"],2)}% de interação da Tabela 3 não devem ser entendidos como grande ganho ou evidência forte de efeito.')
 
     page()
     title('5. Limitações e conclusão')
     figure('rodadas','Figura 5 — Tempos por rodada. As primeiras observações mais lentas foram mantidas.',165)
-    p('<b>Limites da comparação.</b> A máquina estava em uso geral, sem isolamento da CPU irmã e sem frequência fixa. Isso pode afetar tempos e contadores. Os intervalos t são individuais, sem ajuste para comparações múltiplas, e pressupõem independência e uma aproximação adequada para a distribuição da média. Dez observações não eliminam essas limitações.')
+    p(f'<b>Mudança durante a coleta.</b> A primeira rodada teve média de {f(primeira_rodada,3)} s por execução; da terceira em diante, {f(media_final,3)} s. Essa diferença sugere mudança nas condições de execução. Sem medir frequência, temperatura e carga durante cada execução, não é possível determinar a causa. Todas as observações foram mantidas.')
+    p(f'<b>Limites da comparação.</b> {condicao} A CPU irmã não foi isolada e a frequência não foi fixada. Os ICs t são individuais e pressupõem estabilidade e independência suficientes. A mudança de tempo durante a coleta limita essa interpretação; uma média menor não significa uma medição mais estável.')
     p('O estudo usa um único tamanho de matriz e de bloco. A dimensão 512, potência de dois, pode acentuar conflitos de cache. Os resultados não devem ser generalizados para todas as dimensões, compiladores ou arquiteturas. A medição inclui zeramento e primeira escrita da saída, mas exclui malloc/free: avalia principalmente a disposição e o acesso às matrizes, não o custo de alocá-las.')
     p('<b>Conclusão.</b> Interchange estático apresentou o menor tempo médio e reduziu fortemente as faltas de L1. Unrolling quase dividiu por dois as instruções de desvio, mas não garantiu ganho na versão dinâmica. Tiling dependeu da disposição em memória. A análise das repetições mostrou que diferenças pequenas em branch misses exigem cautela.')
-    p('<b>Reprodução.</b> O repositório preserva as 80 medições em dados/coleta_2026-09-07/medicoes.csv. As tabelas completas e os gráficos estão em analise/; brutos.zip contém as saídas originais e fontes.zip, o código usado. O piloto está separado em historico/piloto.zip. O comando <b>make relatorio</b>, na raiz, recalcula a análise e a conferência em R e gera este PDF e o Anexo_tecnico.pdf.')
+    p(f'<b>Reprodução.</b> O repositório preserva as 80 medições em {source.parent.name}/{source.name}/medicoes.csv. As tabelas completas e os gráficos estão em analise/; {brutos_nome} contém as saídas originais e {fontes_nome}, o código usado. O piloto anterior foi preservado separadamente em historico/piloto.zip. O comando <b>make relatorio COLETA={source.parent.name}/{source.name}</b> recalcula a análise e a conferência em R e gera este PDF e o Anexo_tecnico.pdf.')
     p('O anexo contém a metodologia completa e os gráficos de efeitos principais e interação. Os arquivos preservados têm verificação SHA-256; o relatório usa os dados medidos, sem descartar observações.', 'Pequeno')
     title('Referências')
     for ref in [
@@ -167,7 +201,7 @@ def main():
         canvas.saveState()
         canvas.setFont('DCO',7)
         canvas.setFillColor(colors.HexColor('#596579'))
-        canvas.drawString(42,26,'SSC0951 • Coleta: 07/09/2026 • Revisão: 08/09/2026')
+        canvas.drawString(42,26,f'SSC0951 • Coleta: {data_coleta}')
         canvas.drawRightString(A4[0]-42,26,str(doc.page))
         canvas.restoreState()
     SimpleDocTemplate(str(pdf),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=38,bottomMargin=42,

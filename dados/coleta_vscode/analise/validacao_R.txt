@@ -1,0 +1,4 @@
+OK: 40 medias, desvios e IC95% coincidem com Python (tolerancia relativa 1e-7).
+OK: 12 influencias entre medias e 12 com replicas coincidem (tolerancia absoluta 1e-6 ponto percentual).
+Modelo do r.txt: lm(resultado ~ Tecnica * Alocacao), anova e normalizacao pelas tres Mean Sq.
+Graficos de efeitos principais e interacao: efeitos_interacoes_R.pdf.
