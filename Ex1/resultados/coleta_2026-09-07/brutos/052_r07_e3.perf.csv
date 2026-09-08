@@ -1,6 +1,0 @@
-# started on Mon Sep  7 16:32:35 2026
-
-2427595813;;L1-dcache-loads:u;806017442;100.00;;
-8728836;;L1-dcache-load-misses:u;806017442;100.00;;
-135271624;;branch-instructions:u;806017442;100.00;;
-264819;;branch-misses:u;806017442;100.00;;

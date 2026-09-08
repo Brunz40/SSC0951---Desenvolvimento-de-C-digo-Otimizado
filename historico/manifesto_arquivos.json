@@ -1,0 +1,2252 @@
+[
+  {
+    "origem": "Ex1/resultados/piloto/metadados.json",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/metadados.json",
+    "sha256": "8a51931025014dc771c224a8addb7edbfafe95a25143c369c8fc963c114f224f"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/medicoes.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/medicoes.csv",
+    "sha256": "b48ad0551aa569b8b262c49e483325967f20f03c774cf33a29e2cd2daeab2d3d"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/001_r01_e7.comando.json",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/001_r01_e7.comando.json",
+    "sha256": "d6df8f4d6f0ff8c3bf1eb4798ba5d7b766dcd6330da7adac3d4f18d52448c82e"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/001_r01_e7.perf.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/001_r01_e7.perf.csv",
+    "sha256": "6f09ca9b6593653bbf1fcdff686e988058fbbfe10093024a0a5f193cf2689509"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/001_r01_e7.stdout.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/001_r01_e7.stdout.csv",
+    "sha256": "040afcffb8acb6c50e8a0a4921d229049d8a61a91ce241f8ad543758dc3bc0ca"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/001_r01_e7.stderr.txt",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/001_r01_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/002_r01_e6.comando.json",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/002_r01_e6.comando.json",
+    "sha256": "320c7e346a130c0eb9333d134eac6f93cfc424462fbfb15186d658ccdf7721f9"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/002_r01_e6.perf.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/002_r01_e6.perf.csv",
+    "sha256": "7998ec997df6384350fb40d9ae62855780a8094341846210d7078350934b155a"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/002_r01_e6.stdout.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/002_r01_e6.stdout.csv",
+    "sha256": "85df351711ad0ff0a4da3f23aae1aae0a58e62c9f482a7351b79a9e9bd718bb7"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/002_r01_e6.stderr.txt",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/002_r01_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/003_r01_e1.comando.json",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/003_r01_e1.comando.json",
+    "sha256": "9f851993628983cdb60a8201e2013309dc2df42d912c6dd1ad2e3bc3319365a0"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/003_r01_e1.perf.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/003_r01_e1.perf.csv",
+    "sha256": "c7cf283377d8342433608d1af546e6935b60a327d1f4057fbe6bfc10f70c8b2e"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/003_r01_e1.stdout.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/003_r01_e1.stdout.csv",
+    "sha256": "3a7726dab9f42030f3a8a9f760e21b562ab24ccb8dab9a3391b42a392976b489"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/003_r01_e1.stderr.txt",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/003_r01_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/004_r01_e8.comando.json",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/004_r01_e8.comando.json",
+    "sha256": "7aa5e3c8c1ffe21af54271855e1fc99ae355353bd255417ff1cbaf5a9c077580"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/004_r01_e8.perf.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/004_r01_e8.perf.csv",
+    "sha256": "b9bf028085b1c308e697f70941104f253237f56b5dca943b778bdfe2eead8cba"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/004_r01_e8.stdout.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/004_r01_e8.stdout.csv",
+    "sha256": "2177a524dee3e4bb85f37bbcc1d66d25463c95c61fe799932693f7a5cc37c2b2"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/004_r01_e8.stderr.txt",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/004_r01_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/005_r01_e3.comando.json",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/005_r01_e3.comando.json",
+    "sha256": "ec3ce4b626f2277833163f4b8f312ad238e5a6bc085a36e39d9323a93147b0f3"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/005_r01_e3.perf.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/005_r01_e3.perf.csv",
+    "sha256": "d54026a7eaa7850fe0095e6f4b8957f1da5c7284aaf193b1b042acac461389e6"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/005_r01_e3.stdout.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/005_r01_e3.stdout.csv",
+    "sha256": "c8fd1f3d3bb47144bf09afe575f89847ad289a1e3332d97b01960d9f03094722"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/005_r01_e3.stderr.txt",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/005_r01_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/006_r01_e5.comando.json",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/006_r01_e5.comando.json",
+    "sha256": "8f87a7dc5ed87ab4386718e3e1fd4c56376f4a637d63ba42ef7717844bcf2c54"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/006_r01_e5.perf.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/006_r01_e5.perf.csv",
+    "sha256": "67721b74043d39177b677d954ff2babc6d51cdc55c8b92d792c76b98f09b360e"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/006_r01_e5.stdout.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/006_r01_e5.stdout.csv",
+    "sha256": "7bf3930a3195f9e42439395ed2a72e0d0837b31f59049789204ee65e2865144d"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/006_r01_e5.stderr.txt",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/006_r01_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/007_r01_e2.comando.json",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/007_r01_e2.comando.json",
+    "sha256": "1300ee9a3b9f0e77a87e52bd51ead3f5a914713af1faae1fdb294dfa674ad2ea"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/007_r01_e2.perf.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/007_r01_e2.perf.csv",
+    "sha256": "7b7846e16aad2cf390d48806edd3ebfe71b76b46bbdde9272ff26176c3706d13"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/007_r01_e2.stdout.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/007_r01_e2.stdout.csv",
+    "sha256": "756d13ddf2229e4d6e4d4031b98d96bbd9b1c34e18be398575b59613fef0eaae"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/007_r01_e2.stderr.txt",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/007_r01_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/008_r01_e4.comando.json",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/008_r01_e4.comando.json",
+    "sha256": "270edd1fdbac173c3d10b3a7126b8757290d8d6ebc38a4b5be8707551b986c10"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/008_r01_e4.perf.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/008_r01_e4.perf.csv",
+    "sha256": "41e5cc0d48fbb8d5ac1c384d2fb15b9d7d3c95a0718ca32a19ee3b96bea823c5"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/008_r01_e4.stdout.csv",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/008_r01_e4.stdout.csv",
+    "sha256": "7f975bdbd13e80bf056d88e8a1a37bce7d6ed5f59af84aaecfc30c05cbc22998"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/brutos/008_r01_e4.stderr.txt",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/brutos/008_r01_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/fontes/Main.c",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/fontes/Main.c",
+    "sha256": "addae70653c2aae1716cf85030f318b16b589a746b1516459ba3a55a7ad9a3cc"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/fontes/Multiplica.h",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/fontes/Multiplica.h",
+    "sha256": "057c2284e7dc4e851d3d264d2a8783698c578196939fa696347896278b878e6f"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/fontes/multiplica.c",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/fontes/multiplica.c",
+    "sha256": "31162b205a6a1aefa55ce3fc5db75515acdeb88762c4f53fe78362df4711c849"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/fontes/Makefile",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/fontes/Makefile",
+    "sha256": "040f3644736ff4b1be0588096b0bcc388b258c4f93df56e9a651a0ec372c3af6"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/fontes/TestaMultiplica.c",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/fontes/TestaMultiplica.c",
+    "sha256": "959c7aa5c032490172f561bcd30230155538de9dc6c52a305d4a5c1ad5cfbdaa"
+  },
+  {
+    "origem": "Ex1/resultados/piloto/fontes/scripts/coletar.py",
+    "zip": "historico/piloto.zip",
+    "membro": "Ex1/resultados/piloto/fontes/scripts/coletar.py",
+    "sha256": "214b53fa1076cd537629f18fd348bc71f9b4341b413f8b7a478850c6668f5d98"
+  },
+  {
+    "origem": "teste.c",
+    "zip": "historico/arquivos_anteriores.zip",
+    "membro": "teste.c",
+    "sha256": "8cfd3bdd2135668f2661e53407b15ee272ef51c6ce74ec67e71e1bda4e3bb0a1"
+  },
+  {
+    "origem": "teste",
+    "zip": "historico/arquivos_anteriores.zip",
+    "membro": "teste",
+    "sha256": "f535c78b9e201c300c8a9b81b1996fd8b08a24f946518a857ac7c1896881416c"
+  },
+  {
+    "origem": "teste.o",
+    "zip": "historico/arquivos_anteriores.zip",
+    "membro": "teste.o",
+    "sha256": "0553f1f24565ed66d680e0768a91ba73ca4404a5c9b297c718b50fbb34aa9284"
+  },
+  {
+    "origem": "Ex1/Main.o",
+    "zip": "historico/arquivos_anteriores.zip",
+    "membro": "Ex1/Main.o",
+    "sha256": "e59cca947674412ed4b6d0d446f3e46abac9407a23ce4821b58ce0db4ba1cf23"
+  },
+  {
+    "origem": "Ex1/multiplica.o",
+    "zip": "historico/arquivos_anteriores.zip",
+    "membro": "Ex1/multiplica.o",
+    "sha256": "042c8c11ca018ab2a209bcd9a1aea8104c0dd4cb21742444351cf2b0d8f2cc20"
+  },
+  {
+    "origem": "Ex1/executavel_teste",
+    "zip": "historico/arquivos_anteriores.zip",
+    "membro": "Ex1/executavel_teste",
+    "sha256": "09fd08b843e4a12b0ce1c7a24b54a75d8c11b6fd596488a74f41ef8fdcb33182"
+  },
+  {
+    "origem": "Ex1/README.md",
+    "zip": "historico/arquivos_anteriores.zip",
+    "membro": "Ex1/README.md",
+    "sha256": "81b90e7b9298225c1c76a981fe227d98adfa27cf3e1167bc52d87bb033afe474"
+  },
+  {
+    "origem": "Ex1/scripts/relatorio.py",
+    "zip": "historico/arquivos_anteriores.zip",
+    "membro": "Ex1/scripts/relatorio.py",
+    "sha256": "2dafb6b31b9de96986e830318ea8fc3e371dc2d072c8af46d3be85a9a1a93aea"
+  },
+  {
+    "origem": "Ex1/resultados/coleta_2026-09-07/analise/Relatorio_Atividade2.pdf",
+    "zip": "historico/arquivos_anteriores.zip",
+    "membro": "Ex1/resultados/coleta_2026-09-07/analise/Relatorio_Atividade2.pdf",
+    "sha256": "754a90227da92a02d12a4c0c9fd6bc1cf726ac0b6f0af63e0efbc9d801b50f2c"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/001_r01_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/001_r01_e7.comando.json",
+    "sha256": "16fa99bb6a6ee4592690fd62ac5245e0ea0d2dd84035164ab1fee2120cae12d5"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/001_r01_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/001_r01_e7.perf.csv",
+    "sha256": "bf397ef50f25aff8651fe0d697cc653b6eb9d1c00b5ebbaf4e5d09b77e122f76"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/001_r01_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/001_r01_e7.stdout.csv",
+    "sha256": "48a9411f3124337ebef1cc304ff8da0cedd6a5fb53e5b7dc91e29eac418404ef"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/001_r01_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/001_r01_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/002_r01_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/002_r01_e6.comando.json",
+    "sha256": "cba1a7c766ebbb9866928d8f36695f65d0fe40b5f9d93c433e92ca8718b07a52"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/002_r01_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/002_r01_e6.perf.csv",
+    "sha256": "27e0fa6fc7af5b7ec70463a372aaa282e2ed1ab346f41140c15caafa0920e115"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/002_r01_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/002_r01_e6.stdout.csv",
+    "sha256": "d3a38ef572256e3edbc95548d7537f19f712ea42ae8608926ddf5b90f086451a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/002_r01_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/002_r01_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/003_r01_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/003_r01_e1.comando.json",
+    "sha256": "8d504678a4fbbd2085943631ed8e8c2f8f66f8407f9bb9a56bac2387aeb606ae"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/003_r01_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/003_r01_e1.perf.csv",
+    "sha256": "a388dc14bc1e4dc6f48e4f6c0784350bcf715d3d1a9f6edf29dd2a70a23d6ada"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/003_r01_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/003_r01_e1.stdout.csv",
+    "sha256": "0093e8e30310b448fef9217075034dc271f0a498331967d57b1a77b9b9f05b65"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/003_r01_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/003_r01_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/004_r01_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/004_r01_e8.comando.json",
+    "sha256": "ff03b9a672356abb23ecc3455848b98b6e8782dd4fadd78d435e0f75d336a0ac"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/004_r01_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/004_r01_e8.perf.csv",
+    "sha256": "2433d1d1e0c31ca589f00580472432507434170124545a0ad05cc8265dc917b3"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/004_r01_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/004_r01_e8.stdout.csv",
+    "sha256": "efe03682d12c6cd772a2284e6df741869df51e88bf60144e173b8136ac8f5cc8"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/004_r01_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/004_r01_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/005_r01_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/005_r01_e3.comando.json",
+    "sha256": "2c202d77498ffa2768bfde21087200c4c863ea65defeaefd73e223af7a969f10"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/005_r01_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/005_r01_e3.perf.csv",
+    "sha256": "4ba051f446b2a1d84581eaa429e42f8d2cb2a8244a2f3a173ae195704040175a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/005_r01_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/005_r01_e3.stdout.csv",
+    "sha256": "c7b02644fe62bcc18d2a3d91a71fcf5c11c0df45725ca7e92773cb9dd73f3ad7"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/005_r01_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/005_r01_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/006_r01_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/006_r01_e5.comando.json",
+    "sha256": "4a33f93246d71d6761a0e0627ca8ab92e14c4ff5e6244c73351f4f92a5864d43"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/006_r01_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/006_r01_e5.perf.csv",
+    "sha256": "3724900f6a088489ae365761c3372746c581331f471bf8da60b41411d0f2e8fb"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/006_r01_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/006_r01_e5.stdout.csv",
+    "sha256": "5850c0549d0b25cfb9f245d7b49955c038332abfee268fa4424c947d5a5a8cfa"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/006_r01_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/006_r01_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/007_r01_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/007_r01_e2.comando.json",
+    "sha256": "bd00e9a9b2bdbe23f787c9d85510b208702033eeb7f9a5b0b662e10a25350a1d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/007_r01_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/007_r01_e2.perf.csv",
+    "sha256": "d372ae38b7293865d6b3c6568ecff9532dbc736f60a7d9f9145058d41d9583bc"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/007_r01_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/007_r01_e2.stdout.csv",
+    "sha256": "901b9d68eb48897edd27f2f5486f8d109f0e43de5991aff2a1f27cf90af5cc2d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/007_r01_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/007_r01_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/008_r01_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/008_r01_e4.comando.json",
+    "sha256": "1ef6f2f62e83f0ca5977551b7f9992a0bf27ecd3862794fccef5d50e6a3303de"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/008_r01_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/008_r01_e4.perf.csv",
+    "sha256": "b2dd8ec36f9b7ebc4940119b57e10092fc94e3136328b1d353a8a65fb186ce48"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/008_r01_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/008_r01_e4.stdout.csv",
+    "sha256": "d0b6b0763e19f5df274d5a11f541a3dd1fbec0015cb840bf639b1bee174cc92c"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/008_r01_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/008_r01_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/009_r02_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/009_r02_e3.comando.json",
+    "sha256": "fa3499bd37065079f616f23b57b8b40a25f9fdc60358d442c140b5c4b2d08aae"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/009_r02_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/009_r02_e3.perf.csv",
+    "sha256": "2a3641cec57bc04d2507bdd924b6dcedb56afe0b50115852ef3b19b2dee0887a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/009_r02_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/009_r02_e3.stdout.csv",
+    "sha256": "5afc87d99097987bf99a546353896c2285e85abaced30b3005d0d2eda3e036da"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/009_r02_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/009_r02_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/010_r02_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/010_r02_e7.comando.json",
+    "sha256": "c5ebbc4ed9f5cb5a0ebefa92a0cb5217e19fdc546e8908a510d71d11f366cac7"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/010_r02_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/010_r02_e7.perf.csv",
+    "sha256": "fcf155b6ef997ff726776aacc68133dbc3f9b110056042705f3fc296a3741a9b"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/010_r02_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/010_r02_e7.stdout.csv",
+    "sha256": "287d74e9c2db58f658ab6dfeaf9e9f92168511b9ac90474b0d1f1cb4829d88a6"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/010_r02_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/010_r02_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/011_r02_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/011_r02_e5.comando.json",
+    "sha256": "ff83e64a09254bb69ba59183656b79023007c4c80d32f9a4d07c0097a065ab80"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/011_r02_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/011_r02_e5.perf.csv",
+    "sha256": "ef117692e8f68cc5a319ef860c78a9c4f21b717656d5f9aa260505956ecad3c7"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/011_r02_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/011_r02_e5.stdout.csv",
+    "sha256": "a9097cf6600a092235e91858797be0eddfc08e737d390293aa5089e92530e2c0"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/011_r02_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/011_r02_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/012_r02_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/012_r02_e4.comando.json",
+    "sha256": "adc1888326b8bbf65bb6fe14da8a072aa01825831ffd89bdbda8fb2814d1de04"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/012_r02_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/012_r02_e4.perf.csv",
+    "sha256": "0329a3bdce41db166fdc6bf212365397474464b80f832f9555b8b3a0c179154d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/012_r02_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/012_r02_e4.stdout.csv",
+    "sha256": "fc221b7145ce53f6277a7265c5716de7c0f6e607c1b4ba6d2a3073c96f5a7dfb"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/012_r02_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/012_r02_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/013_r02_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/013_r02_e1.comando.json",
+    "sha256": "7c7526988a62e4d4e35d78f626513af69ca6cf855e7fbe96be2fede3a853faa1"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/013_r02_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/013_r02_e1.perf.csv",
+    "sha256": "7756515484ce53a090e1dd4041fdc9ebf6771b5b99d6cf11a8f54af7e551ef44"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/013_r02_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/013_r02_e1.stdout.csv",
+    "sha256": "43861a923e1186f03e3c9d3c55d41dc6eaed3134ff1bf50347057f16c5c16965"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/013_r02_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/013_r02_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/014_r02_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/014_r02_e2.comando.json",
+    "sha256": "507d13558f41c55eefea44e8ea6055ec9e45d271ca04bcb844fee3c696b5abf5"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/014_r02_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/014_r02_e2.perf.csv",
+    "sha256": "2f8f81464dfdd6e68f64ef277a43501f2c2c378be49bbfd3c51142126645c351"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/014_r02_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/014_r02_e2.stdout.csv",
+    "sha256": "63ce9912b4fcdc56a7401fb8562837a524de72c972b2589568686a8bd8f5b296"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/014_r02_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/014_r02_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/015_r02_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/015_r02_e8.comando.json",
+    "sha256": "b5765e8ccd1e7363e64c475517b738617cd0fe6ccd4b68b6a501657b3ffe84e3"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/015_r02_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/015_r02_e8.perf.csv",
+    "sha256": "e32a55d8dd7a51306aa01095827e7c7f2141b6e35ffa286583864ba9b70d25bb"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/015_r02_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/015_r02_e8.stdout.csv",
+    "sha256": "ad18c42a8be3b2d3ee4d74c375eded915bb183560375d74beab05b64df74fbcb"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/015_r02_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/015_r02_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/016_r02_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/016_r02_e6.comando.json",
+    "sha256": "3289d316255773f3b8fc4c3ed50c409f83cad159d47b6a746f79295dec131d60"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/016_r02_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/016_r02_e6.perf.csv",
+    "sha256": "f8925ce82df804ed1ca62803d1573d1c1cd9ba37a85357a7e6186a68c39d23e8"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/016_r02_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/016_r02_e6.stdout.csv",
+    "sha256": "1c7d9490629d1fa617fbd1dc9e542a4cc400bc386f2687d4a3a48c980cb1411a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/016_r02_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/016_r02_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/017_r03_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/017_r03_e8.comando.json",
+    "sha256": "49dd1ae66dfc4a9a9ab70ea7516099cf37d2826d95e495654fc47efb3b321e38"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/017_r03_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/017_r03_e8.perf.csv",
+    "sha256": "9cf844dfdc637f4d43c7f5a2cddcec565f546576876d3f2846567d93774f2ef7"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/017_r03_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/017_r03_e8.stdout.csv",
+    "sha256": "16888c07a030568c50b2ad21edb2f3ed6942a5d1ed0720c003fdc64b73c5f9f3"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/017_r03_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/017_r03_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/018_r03_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/018_r03_e7.comando.json",
+    "sha256": "3670bb7ab1c4dfb586001d1a872ed0380eb26f31d3f04feffbada230806f1245"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/018_r03_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/018_r03_e7.perf.csv",
+    "sha256": "8a05e3b705183fa332192c68d90a0c0d6adaa131bc8699d062cbcf45ebf530f9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/018_r03_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/018_r03_e7.stdout.csv",
+    "sha256": "d425061a8c1f65ce8883a335562b3e0443cc7e9d57f59daeda8e06cfe41b8c48"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/018_r03_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/018_r03_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/019_r03_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/019_r03_e5.comando.json",
+    "sha256": "96c3714a35c7ef7d2798d223ad5b3641e924626bddd193204f985c55d79ab903"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/019_r03_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/019_r03_e5.perf.csv",
+    "sha256": "0d926052ae26ab6754fea4b5fcdcfc2f421d50995907a5c127c7397a4c2259c0"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/019_r03_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/019_r03_e5.stdout.csv",
+    "sha256": "cbfcf866b2f19ffd104cc8074994e95b2a85b1d2c0dbe924b6edab4490a4110b"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/019_r03_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/019_r03_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/020_r03_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/020_r03_e2.comando.json",
+    "sha256": "016ce2c98165be8eed112f44ba1472a0f0a2965540dd672b2d633216c17af837"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/020_r03_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/020_r03_e2.perf.csv",
+    "sha256": "a727d8d36dde6671bf1d4253b2c947e67483fe2b8b27a37d48d2244598489e9a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/020_r03_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/020_r03_e2.stdout.csv",
+    "sha256": "3af82a68c7a297298e7393efef53e240bb9e3d8507715c88dd4d5afe4a8be954"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/020_r03_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/020_r03_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/021_r03_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/021_r03_e4.comando.json",
+    "sha256": "5969da73ff4d9e5d02f722d675110bf1c928fa260ac6360bd51e4ebe419d363d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/021_r03_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/021_r03_e4.perf.csv",
+    "sha256": "93120b44c57244e2878b68b28b5f94b8e541a73e952322c7dba95f3c7af0b0f8"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/021_r03_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/021_r03_e4.stdout.csv",
+    "sha256": "1926a3c190272885c35402306857684a526229e57b5067ba06ba4b215e4c7ac2"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/021_r03_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/021_r03_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/022_r03_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/022_r03_e6.comando.json",
+    "sha256": "cfba38617411805037a52cb4c88ca53bb3f71c1068d02624522d44be20dc6640"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/022_r03_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/022_r03_e6.perf.csv",
+    "sha256": "a9139575e67e76c9ae9a6e1cc89cda65bcbe34930a43ef8ce7a365b9afff0af9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/022_r03_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/022_r03_e6.stdout.csv",
+    "sha256": "3abc7cdfd37038da78b6b4b655d423ff9cca1b934216eb42c36bca8b16477448"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/022_r03_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/022_r03_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/023_r03_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/023_r03_e3.comando.json",
+    "sha256": "07a1d05dac9ccb147f2d1025822b9d20a0484a85211643f55c3e4305c0185f98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/023_r03_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/023_r03_e3.perf.csv",
+    "sha256": "b5d2cfffe2cf0836a89c63bf8c9c23a7b85fc6d45753fdcf41b2dfae909033c3"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/023_r03_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/023_r03_e3.stdout.csv",
+    "sha256": "24505524735c6a6a2ea29c764a81aaf0dfd0e6cad6dc4858ae2326367e49e61b"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/023_r03_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/023_r03_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/024_r03_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/024_r03_e1.comando.json",
+    "sha256": "1fdaa4ce60509ccaa99fab892a207e7ed721a48670bae4a6987f39ec6b6a8cb7"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/024_r03_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/024_r03_e1.perf.csv",
+    "sha256": "ce60025a6fea279f736bc60b2e41703df7ff010ae2900f644b12646b3287ab12"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/024_r03_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/024_r03_e1.stdout.csv",
+    "sha256": "970e84fb6d096b0c74cb1275310cf8b30fd163225619c0b5d7d26118289fc2d8"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/024_r03_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/024_r03_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/025_r04_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/025_r04_e3.comando.json",
+    "sha256": "a297d900163c5f0297a6895a9f7536ca7519d5265332b34831b6ec056db84203"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/025_r04_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/025_r04_e3.perf.csv",
+    "sha256": "83601d91bda25b30365716029718b4cce8531a5dce88652a8f856f272741670c"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/025_r04_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/025_r04_e3.stdout.csv",
+    "sha256": "64590e531aae8538a3d18e99a5c3c5bc8565d4b9698d4573f37f049e65c7b884"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/025_r04_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/025_r04_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/026_r04_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/026_r04_e2.comando.json",
+    "sha256": "86edc6a647350ce2c6990c7cac51e9910792884133bca13885f9c70a14b4b5b9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/026_r04_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/026_r04_e2.perf.csv",
+    "sha256": "5cd4588ecb8a3e156c7a54f93a984b2f34599eae830bd39371431f26bdc99727"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/026_r04_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/026_r04_e2.stdout.csv",
+    "sha256": "1ec6681e7a0b4cc4766762ecb54a7d6f3cef1f4f123e9d2a87bf9f0bf2e0b756"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/026_r04_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/026_r04_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/027_r04_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/027_r04_e8.comando.json",
+    "sha256": "efa133c6cee815dcdbd6acb346abf6464721e3f9c94200fd67a68f7483e4aad2"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/027_r04_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/027_r04_e8.perf.csv",
+    "sha256": "336bf3e1e844022262ec86e18f2673d2948032d717ad6650187d9093ed5be5c3"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/027_r04_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/027_r04_e8.stdout.csv",
+    "sha256": "f08d6acf4d0a43941c88538586136d247c74f70b7574ab580e1a3924febcc3d0"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/027_r04_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/027_r04_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/028_r04_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/028_r04_e5.comando.json",
+    "sha256": "657d99204fefd35adb0a58da22f81e4dd21fb5f76897ee2adb28a15615ed93dc"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/028_r04_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/028_r04_e5.perf.csv",
+    "sha256": "c84cf522511cc0d3a918b63deb56fc277a5917c9e9b237179ae8bb090f822bad"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/028_r04_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/028_r04_e5.stdout.csv",
+    "sha256": "c7d261918c41bf23e0b693f80bf70f38f707b06c3efd22113910daa3ed13ff9c"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/028_r04_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/028_r04_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/029_r04_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/029_r04_e4.comando.json",
+    "sha256": "bfdb2ed4e1fd6be5cfe8237d2a2ff7f25fdcecb5e567bf559fc2d862b3862697"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/029_r04_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/029_r04_e4.perf.csv",
+    "sha256": "96be803f42727151e8e82af6fe2871673581ac97b22655f4c7c610e9042feb97"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/029_r04_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/029_r04_e4.stdout.csv",
+    "sha256": "0bf093cb041fc1f9bce61ea51965d1bab9931715f68626014b758fba3857b312"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/029_r04_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/029_r04_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/030_r04_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/030_r04_e1.comando.json",
+    "sha256": "cb4de283272a7ff2c81b09762c72b648f34d79d1e34a5f5eb8bef7e4c8a3bd33"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/030_r04_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/030_r04_e1.perf.csv",
+    "sha256": "8bf0de0238e280e3e90775c2c13e07ec807da034c92cbe27a07c9a43056f8bc0"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/030_r04_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/030_r04_e1.stdout.csv",
+    "sha256": "73fef0082d85de14202551af48ddf29eab91e3af97582071f4c20dea025b1021"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/030_r04_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/030_r04_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/031_r04_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/031_r04_e7.comando.json",
+    "sha256": "cc89205eae235c9dd35d0bfa22a25a16ea463c5e140d99d59e22e83fc1ebf9bc"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/031_r04_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/031_r04_e7.perf.csv",
+    "sha256": "46285d2b862734e84a4860c74baa79aa9a6d2ba81c2a14771b7ee5ab204d850d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/031_r04_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/031_r04_e7.stdout.csv",
+    "sha256": "88bc53cf40bb88ced15b16aa4843f2d6d89223b1c2f9b79f023423f511dc40bf"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/031_r04_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/031_r04_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/032_r04_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/032_r04_e6.comando.json",
+    "sha256": "75311ae4f55b97e7bf8a3e05d7d213296ba26503a86dc9ce4d89bbae746e30f1"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/032_r04_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/032_r04_e6.perf.csv",
+    "sha256": "cc832f43023e7e1950544494123559cae9731b2a4ee8421c20bbd1f22620ebfb"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/032_r04_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/032_r04_e6.stdout.csv",
+    "sha256": "1dfc7991fea78d4e06ef1b925c17daa20cdea43ad2128e7e72ba502c30800263"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/032_r04_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/032_r04_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/033_r05_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/033_r05_e1.comando.json",
+    "sha256": "8fce095156c71749ed80420386e6fe11b7d7c326acfe86c343f775f3a05f58dd"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/033_r05_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/033_r05_e1.perf.csv",
+    "sha256": "9ea8784001cc7f4f6ea90fb6573c5f6952637bc042218743860db3b92a28afed"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/033_r05_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/033_r05_e1.stdout.csv",
+    "sha256": "67d88335606b74c8d414d4cd6816c82cee16242616f75ec7b4dd6b38ad7deeeb"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/033_r05_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/033_r05_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/034_r05_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/034_r05_e8.comando.json",
+    "sha256": "0298b561489e3832b63cda7bbf859ff52c767c4a420133217c6e199332c58b06"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/034_r05_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/034_r05_e8.perf.csv",
+    "sha256": "f313ae040d6c6c349588110f7c9dd907fbb7c872755cb35e7af15c98f32d1427"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/034_r05_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/034_r05_e8.stdout.csv",
+    "sha256": "e61f5b156316654b770542f01409ae6975325866dd89c58f394174ce834c9ee0"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/034_r05_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/034_r05_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/035_r05_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/035_r05_e5.comando.json",
+    "sha256": "bb11184971f9013338ee0b0cfb6991367875e68e43988d9e2dd19b105717609e"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/035_r05_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/035_r05_e5.perf.csv",
+    "sha256": "42366d5866ef8855cac7a01d48681a77c2d7eb577453401165d94b1f13529247"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/035_r05_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/035_r05_e5.stdout.csv",
+    "sha256": "e3fa3ad32719653525c9d2eb3ed849c276eafdb19a73d372aa8b61adb1be332f"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/035_r05_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/035_r05_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/036_r05_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/036_r05_e3.comando.json",
+    "sha256": "86d9f2aa80244c199dd080159f1eecbe6d40fa76e50195ec8d89674e498970ba"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/036_r05_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/036_r05_e3.perf.csv",
+    "sha256": "ced127da8df56c741aafb3d0d8375ed56b4c7b9112028647f31a4471c77aa143"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/036_r05_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/036_r05_e3.stdout.csv",
+    "sha256": "2e675117b1616720327cd4e97aa722422c9f61baf551baf9d8a3d382d369da5c"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/036_r05_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/036_r05_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/037_r05_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/037_r05_e4.comando.json",
+    "sha256": "78a9034d38a918f50483f8b9c0f77f6b8c0f63750e24ce1f17735cbf0d24343d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/037_r05_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/037_r05_e4.perf.csv",
+    "sha256": "af7de01a622b97d0771d2c37a63f6a3cbb5baebc001bf7566d713c9afc24b525"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/037_r05_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/037_r05_e4.stdout.csv",
+    "sha256": "f9daf74939f36069b6d51c7321ca85b6f1dfbb8310f07a7aec482b02197d9365"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/037_r05_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/037_r05_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/038_r05_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/038_r05_e6.comando.json",
+    "sha256": "895716b055881caa037de07951c4a8f163da06bc2c52131d4acd04765d21c004"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/038_r05_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/038_r05_e6.perf.csv",
+    "sha256": "b82a58087489b651ce9fd1eadf7ef82cedda4f8ff659e420ca63e8ff3dcbf76a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/038_r05_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/038_r05_e6.stdout.csv",
+    "sha256": "2468bb218cc004c1dbdaf04d5e71b5a688abf881e56fec5d1c9a3ad426bef1b1"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/038_r05_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/038_r05_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/039_r05_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/039_r05_e2.comando.json",
+    "sha256": "f89f06dfe99b027d3cfdd0a20d3a39a1635d332d74ba19d0e6a0b49b5d1d377a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/039_r05_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/039_r05_e2.perf.csv",
+    "sha256": "a76d8b799d298b5d2884fd0fef942c4938199132c3fc7b4bbff6118d74623533"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/039_r05_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/039_r05_e2.stdout.csv",
+    "sha256": "7a409a72e436836ecda3cd0262ea20aecd857ceb18228a2b626dca4cc39b0164"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/039_r05_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/039_r05_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/040_r05_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/040_r05_e7.comando.json",
+    "sha256": "b1650a199e3ab568e21e42078b4b7009b6a5beb34bf87ae94b624b9bd9f3a9bd"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/040_r05_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/040_r05_e7.perf.csv",
+    "sha256": "40c317ad10d456ef35e92791eff293fe51c996be60ca70d7976142b2fddf83d0"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/040_r05_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/040_r05_e7.stdout.csv",
+    "sha256": "869b8de841e2b3ca48dd54dd4a768b172233f6e97bbb8ff20b4cb9e87bbf113f"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/040_r05_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/040_r05_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/041_r06_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/041_r06_e3.comando.json",
+    "sha256": "5454434bd680d4576ab2912467883355f66cfd04cd9c28c4a24c53ea2dfc275f"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/041_r06_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/041_r06_e3.perf.csv",
+    "sha256": "101acf8b44cca9c8ca62c9087b88e353fbaf285d301f8f56049399db735e13ec"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/041_r06_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/041_r06_e3.stdout.csv",
+    "sha256": "41140952e9e0c5cccbc26aefeb56489671a1a45a45bb0b4335ef422e0b651446"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/041_r06_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/041_r06_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/042_r06_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/042_r06_e1.comando.json",
+    "sha256": "ebf95603b9a688a62be0ddcc6f74cc1d40921e1b1154cf4838b0cf0cdd27844d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/042_r06_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/042_r06_e1.perf.csv",
+    "sha256": "2b015fcd5f506f563b73713ee953111a5e4117ae0f2bd622d67b2b505e57a2e8"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/042_r06_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/042_r06_e1.stdout.csv",
+    "sha256": "b59383916c54a6cb04e7fca73624204a6886c63d2c00df901b86047989db4d5b"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/042_r06_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/042_r06_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/043_r06_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/043_r06_e6.comando.json",
+    "sha256": "9a9fa1c9e3fa3ec2788028c6586ec37a60f6d4a0d7dd63d92160bc5846659561"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/043_r06_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/043_r06_e6.perf.csv",
+    "sha256": "08ffe61f00427b39368b4c42004f242a7e39eeb4aacb437ff1b7d89e716aed55"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/043_r06_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/043_r06_e6.stdout.csv",
+    "sha256": "19b661a823f88509e8805a3ee73d1b3be14d657504d81ccc5397b2a1beb58af9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/043_r06_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/043_r06_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/044_r06_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/044_r06_e2.comando.json",
+    "sha256": "6f47bf5c38b56b32ea13b345524bcd2069436bd6c3971a094243087d13c28290"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/044_r06_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/044_r06_e2.perf.csv",
+    "sha256": "f04779db41be90079e823c033e22a1cacc15b9a6708e99fe802d15f8315a8c7d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/044_r06_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/044_r06_e2.stdout.csv",
+    "sha256": "2379edc63f77173891a8f92512d79df9d57a4bf379c54ba46200667992140447"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/044_r06_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/044_r06_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/045_r06_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/045_r06_e5.comando.json",
+    "sha256": "eff2776ac0b911fa9bf83aff330b4d84896f37cad94b4931eb342fd52a2e90c9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/045_r06_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/045_r06_e5.perf.csv",
+    "sha256": "49c3cbe83c7dbd9a2a15359fb26c706a3e461d49a47dca7b91b9072d602e2239"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/045_r06_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/045_r06_e5.stdout.csv",
+    "sha256": "70e9b83509dcf1b33db7be78b1cd9ff0c7a3e32aae5895715b666496937d8c14"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/045_r06_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/045_r06_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/046_r06_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/046_r06_e4.comando.json",
+    "sha256": "3fc759d0e86a51dcca649d3b0060147fdd3eba009b472e033e4b4aee6412d8b9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/046_r06_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/046_r06_e4.perf.csv",
+    "sha256": "03d9e93601d1ac5ca3a788a66a16ab3f5c0b24d35215fd1b10c8164101e98c9a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/046_r06_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/046_r06_e4.stdout.csv",
+    "sha256": "f212cc2a9a3b6ca97e7393f3148d7d391fdc206fa5b8084e64f61a59dd1ff05e"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/046_r06_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/046_r06_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/047_r06_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/047_r06_e7.comando.json",
+    "sha256": "eab7765cc9886c41460649867f7f2f0b2ffca40bbfff696c969ccfe637275312"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/047_r06_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/047_r06_e7.perf.csv",
+    "sha256": "eb657ca58fa3731f4d68e7050a0f7b6662862308f443f882574764f363e92974"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/047_r06_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/047_r06_e7.stdout.csv",
+    "sha256": "d6cdf56813d0f08a8f3a17fef4f0f94d15913fc15c0555e29d480eff2698bd01"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/047_r06_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/047_r06_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/048_r06_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/048_r06_e8.comando.json",
+    "sha256": "6250521cc57c5ea7365aaad2cbb2a18ecb42902e661790267351938d5d009a94"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/048_r06_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/048_r06_e8.perf.csv",
+    "sha256": "333459e9d3b9135d5a68ef2c9c31082ce3a2c6bb9725e915875bf32305019ec0"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/048_r06_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/048_r06_e8.stdout.csv",
+    "sha256": "d8dc6928188573a6a0859e0aafb5eba3942248e598247b0c8a89a68ed63389ba"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/048_r06_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/048_r06_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/049_r07_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/049_r07_e8.comando.json",
+    "sha256": "08562af469206e1073ec9b20a5d0b1e863edeadc2c7a4f591bec8d8f2aa79c30"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/049_r07_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/049_r07_e8.perf.csv",
+    "sha256": "cdc1d5bc3c235087667e455b02baa4cb4433ca1c1fc4af3822da111340254596"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/049_r07_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/049_r07_e8.stdout.csv",
+    "sha256": "f7333c0386c90262c04dc90c4c91bd6ffc57a4921fdeaa48977b4358739516c3"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/049_r07_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/049_r07_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/050_r07_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/050_r07_e6.comando.json",
+    "sha256": "f769f4d5150fe2990cc81a081b1d81811998955724efa7085df190bad3a2c6ae"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/050_r07_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/050_r07_e6.perf.csv",
+    "sha256": "4516088f755b5b1f22a8965d18ac26ef0ea0fd1731e7499ba5c7ebab3f7e7ef7"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/050_r07_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/050_r07_e6.stdout.csv",
+    "sha256": "82a4d9ada791d8c5860522147bb132aefa77011dab5270b4b2f8b12ff6ea97ed"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/050_r07_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/050_r07_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/051_r07_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/051_r07_e1.comando.json",
+    "sha256": "006e7a605fa59f4dde8e58f7df29fede2fac2642553374eb708f641777910f11"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/051_r07_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/051_r07_e1.perf.csv",
+    "sha256": "b1ab0e9f899b56d13ebdb158b59f5f53312282204bb2ee2134b8f64d8cc634f5"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/051_r07_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/051_r07_e1.stdout.csv",
+    "sha256": "978ffb424bf03dcd968f41783982ff7582bdadd08929d54f9fb0133d730c2134"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/051_r07_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/051_r07_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/052_r07_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/052_r07_e3.comando.json",
+    "sha256": "56056a13b9dc1b0d50340e79501576a2c8c647f881a568545440b438215fe0e4"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/052_r07_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/052_r07_e3.perf.csv",
+    "sha256": "a9f62d02c9056f2fa4945558e606bf2e75c57048a0bfad636fd927f482096c34"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/052_r07_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/052_r07_e3.stdout.csv",
+    "sha256": "f6c4b393c25539053243d7d16a34e7745456a0d591e38f95d884108a5b977f30"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/052_r07_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/052_r07_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/053_r07_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/053_r07_e2.comando.json",
+    "sha256": "6b2c585b841ac4351e5052b79793355c1fe252be12d1fc2009a557a83b799b9b"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/053_r07_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/053_r07_e2.perf.csv",
+    "sha256": "56f3dc1353827dffc6846ccde1f62e80ecbeaa40e59de00c0db35d2977717684"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/053_r07_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/053_r07_e2.stdout.csv",
+    "sha256": "17f5182f22ac5c9042446f2249c3cc0d2de4662d30ef6b40e33f6231c35d8778"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/053_r07_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/053_r07_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/054_r07_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/054_r07_e5.comando.json",
+    "sha256": "6e538ae72d597e119b3e0e228a62620f4060faa2e27f7f4582d92c20da1f4933"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/054_r07_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/054_r07_e5.perf.csv",
+    "sha256": "9678cce87ba40bc83c64d010f714fb0c83aedba2348e08a7e4914cb1fe4f64de"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/054_r07_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/054_r07_e5.stdout.csv",
+    "sha256": "08ccaa7502d0b20fee701b0b87f82b1889df0d76b55f50b713f702cffac3c5b6"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/054_r07_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/054_r07_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/055_r07_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/055_r07_e4.comando.json",
+    "sha256": "15849c3d9db94fb59fbc7037b5a3c721ea405b865e871e859b62e2314ad74cd1"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/055_r07_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/055_r07_e4.perf.csv",
+    "sha256": "4f0dc12d26c799f3f925461f9910e46ca3ff3503533132907bad17098ea891fa"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/055_r07_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/055_r07_e4.stdout.csv",
+    "sha256": "6a0b18b105a9f274f4ca192ab441055331f140b1a3266517077e53af737b351b"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/055_r07_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/055_r07_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/056_r07_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/056_r07_e7.comando.json",
+    "sha256": "b096231ca155ee1bcc75a2455bb1a2d21000385683f12029eb06e0c3f9443fde"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/056_r07_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/056_r07_e7.perf.csv",
+    "sha256": "0320c8f60208d400c3a3e2cb08d2543799e9910d45795ddcf663b9f77f4132f1"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/056_r07_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/056_r07_e7.stdout.csv",
+    "sha256": "a719146de7016c22165d9beab2107f59aad07b3ac202b90d31cf34b23eef2b2d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/056_r07_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/056_r07_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/057_r08_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/057_r08_e2.comando.json",
+    "sha256": "c59b19a68cf57537847173500a850020fa0c646cce2d786ce2c8850345cedfcb"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/057_r08_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/057_r08_e2.perf.csv",
+    "sha256": "adc297c173b9a155baa761db4edd3710020a7bdc255b1da31cb65eb26a4acaca"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/057_r08_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/057_r08_e2.stdout.csv",
+    "sha256": "bb6249d390a672db497d013bdb4c3e35ae79f906997ea7bea35ba23ef9426c55"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/057_r08_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/057_r08_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/058_r08_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/058_r08_e6.comando.json",
+    "sha256": "e8cbf02be312208c1b75749fc892cfe55cbc139520e62473c6292a0912dfccbd"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/058_r08_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/058_r08_e6.perf.csv",
+    "sha256": "c8cda2e29b87ab6dd2f652deffd5df898925495e983dec5b5a1408ee9c184ee9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/058_r08_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/058_r08_e6.stdout.csv",
+    "sha256": "0517adf9d78af23200af2064ece5eb22c70ae74d73ef02e9168bbb891f24692d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/058_r08_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/058_r08_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/059_r08_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/059_r08_e3.comando.json",
+    "sha256": "f81d43ed7153885a009e799056b165a7e1c7bbc673e6b9d30513f3e99964747c"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/059_r08_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/059_r08_e3.perf.csv",
+    "sha256": "2c49c15ffc02e5f3249b2f9f0b39897f55377e057d14476d0bfac458d7759ac1"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/059_r08_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/059_r08_e3.stdout.csv",
+    "sha256": "60d70552ee6a5dbb74d696cb03e8fdd014de5142666c9473cf1c9af485d1a9d9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/059_r08_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/059_r08_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/060_r08_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/060_r08_e1.comando.json",
+    "sha256": "209272096a257fe8188b57b5850d6de2b6982abef35b0afde0186d1f1a70358e"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/060_r08_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/060_r08_e1.perf.csv",
+    "sha256": "fc5238ac3ef7726617f650efa4693ced369b1c3d29a9fe3e8aa90fbbc766d23f"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/060_r08_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/060_r08_e1.stdout.csv",
+    "sha256": "c88bcf830296cad5317a2a331215e310c2e23aedee8be485910b4f6a3df37ef4"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/060_r08_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/060_r08_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/061_r08_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/061_r08_e4.comando.json",
+    "sha256": "462b5fd06b07d3200829dc56b3f98e2862c74104f1866ba64da9863fa2643851"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/061_r08_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/061_r08_e4.perf.csv",
+    "sha256": "28bfffe376000fe44a40e93c6a39efba235186ebdbe2a5003026d2eb6d4e02ce"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/061_r08_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/061_r08_e4.stdout.csv",
+    "sha256": "34924a93173d4ae92a45f3327a896b72eab50435256e158858f21483cfe06ec0"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/061_r08_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/061_r08_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/062_r08_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/062_r08_e5.comando.json",
+    "sha256": "7e862c2113b2faa50d8bf80e3a4c16a4cd118ccbed484cbc23dcd761905d250c"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/062_r08_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/062_r08_e5.perf.csv",
+    "sha256": "893a39c2068e0a52cc7be637670fe16386c2c94cfe3567ecc76353d454353677"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/062_r08_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/062_r08_e5.stdout.csv",
+    "sha256": "ba66097fe7275ca7287d3faec3e5a205a853e1fff1ca7f83867b1b439d34e9ec"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/062_r08_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/062_r08_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/063_r08_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/063_r08_e8.comando.json",
+    "sha256": "9750e5218e363e4c89f6c1ceea3383b0970e007ad283eda576c29539523abadd"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/063_r08_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/063_r08_e8.perf.csv",
+    "sha256": "d82632a6a7365760d4dbe89002e030ccbd81a42bb58658daf0dc49865af6cf4d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/063_r08_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/063_r08_e8.stdout.csv",
+    "sha256": "a95bdfd882a8c43dc54971f2369e9d0ce354816fb55e982cc5096520c9d568d3"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/063_r08_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/063_r08_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/064_r08_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/064_r08_e7.comando.json",
+    "sha256": "121949afe6f030d28ec005d3b02a5a8c8da33849f9cb13b2a1da42ce85ebd777"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/064_r08_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/064_r08_e7.perf.csv",
+    "sha256": "1e7bcb246aa40ba9d75ccfd77db5140fb3838bb9a140bb0200705d0372218dd7"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/064_r08_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/064_r08_e7.stdout.csv",
+    "sha256": "15c698e457e25237c384002c7d84fbc61a521d769ce901b7d7aff2c7dacfd0f5"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/064_r08_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/064_r08_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/065_r09_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/065_r09_e2.comando.json",
+    "sha256": "1d3d53033f6e788e5296520e5e3da45dc95e4cd00267dc3c81a228403f84161e"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/065_r09_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/065_r09_e2.perf.csv",
+    "sha256": "e158666586ee7b90951c16c0091604f20165f984713fff76796015e6807b1996"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/065_r09_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/065_r09_e2.stdout.csv",
+    "sha256": "1cd6e0e3e760064446016dc5739cf8625c732ac73943de283d984fc78c53a1b9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/065_r09_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/065_r09_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/066_r09_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/066_r09_e5.comando.json",
+    "sha256": "d7db4291b10faeccbbf8e257ac78da87c952ce052c6493c5610844ebf1500538"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/066_r09_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/066_r09_e5.perf.csv",
+    "sha256": "df023f967ad20b20f6134605157664e31bd7a0adc1c4aa533f53ee51da36212a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/066_r09_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/066_r09_e5.stdout.csv",
+    "sha256": "325bc9dd514b651a674dcfa7aa87212da809989b9fd5fb6c9d34b58f2df231b2"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/066_r09_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/066_r09_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/067_r09_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/067_r09_e7.comando.json",
+    "sha256": "5ef09ca87afd1e9eb7befcf79addeb5dcc16749eb88a6300c934f8ac72dccac5"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/067_r09_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/067_r09_e7.perf.csv",
+    "sha256": "a774c27ef1c228153d243f0d73c45b3ea0b87a4063d3f7f0e23c691992870385"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/067_r09_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/067_r09_e7.stdout.csv",
+    "sha256": "522ae356d18ba63e5ca389e9316983718cfad5d53c350b9f6b13c4191c6d4519"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/067_r09_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/067_r09_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/068_r09_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/068_r09_e1.comando.json",
+    "sha256": "173ac8386543817b48ffb92a21b63fbf42003bfa66c3aaf24c789788eea7bd78"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/068_r09_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/068_r09_e1.perf.csv",
+    "sha256": "ab9f715e20070635e50b10e20e344a522e5a491f171d2853f226d9985136bf36"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/068_r09_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/068_r09_e1.stdout.csv",
+    "sha256": "1a0e06e8adc76721c03cea8f96cc5b1862d4e92e62b2bef0c94807c703bffa82"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/068_r09_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/068_r09_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/069_r09_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/069_r09_e6.comando.json",
+    "sha256": "6238855b91837b6e578694c1922c6dd5e2dfcfd83e0cb14995531115138140f4"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/069_r09_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/069_r09_e6.perf.csv",
+    "sha256": "314eff60aac426ee782ed0dcede214d37db89ab9c128db50d9bc495715d363b9"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/069_r09_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/069_r09_e6.stdout.csv",
+    "sha256": "b14554787dbacce3759ef235d4301011f4b625e69bdab111e0839d9b898adf80"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/069_r09_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/069_r09_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/070_r09_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/070_r09_e8.comando.json",
+    "sha256": "e65f13f6114de9ca65c31d55582b1c81de04809ad4d65df61ce71858523d9bb1"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/070_r09_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/070_r09_e8.perf.csv",
+    "sha256": "a0a4cc24ad7a54fac97462a2cacee3e8e23ddc4d3f6d17a7ec56c0b57026c918"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/070_r09_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/070_r09_e8.stdout.csv",
+    "sha256": "cf3989a84bbc0ea650a485e5fc7666ab6d9334fa9604b51b4079099cb934997a"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/070_r09_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/070_r09_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/071_r09_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/071_r09_e4.comando.json",
+    "sha256": "20e63f467036e873fa86a842daf418bad71ba034dc28b009db0d1faa3d015eb4"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/071_r09_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/071_r09_e4.perf.csv",
+    "sha256": "20428abbe882e8a3fe3ef2f1357040670d4ec03eefadba7a4f2c30ed51fb0678"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/071_r09_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/071_r09_e4.stdout.csv",
+    "sha256": "493583a4da48907d75787b0a758dec3fac0f86ef32eacd22bbebd0a52018bff2"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/071_r09_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/071_r09_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/072_r09_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/072_r09_e3.comando.json",
+    "sha256": "764caab74cb0a8ba0d884b1e78e4215082ed77253cbe64cc6c9e7a4de0d089ab"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/072_r09_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/072_r09_e3.perf.csv",
+    "sha256": "3c28367b4d762b991f740dc2d8fa26f30c1bc521ed1ccfc6eefad6683b80eaea"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/072_r09_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/072_r09_e3.stdout.csv",
+    "sha256": "bf671411c073aed60b44d57182ad00ea3c2586efbad8a6aeaab8cad789d3fa4d"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/072_r09_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/072_r09_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/073_r10_e2.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/073_r10_e2.comando.json",
+    "sha256": "b5b1d26cd1934a7caf18ab3e152d24455b286a5e7e00c0ed7151de6050e950c2"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/073_r10_e2.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/073_r10_e2.perf.csv",
+    "sha256": "56c2d270738414d8854659a4d7417b75f8e12a2391ec0df8519bca8f3788ec7f"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/073_r10_e2.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/073_r10_e2.stdout.csv",
+    "sha256": "3456c0873af534983b80e6b8fc0f071164ba9fc6d0ce5059bb6f666c103de9c5"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/073_r10_e2.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/073_r10_e2.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/074_r10_e3.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/074_r10_e3.comando.json",
+    "sha256": "ad6debcc1772ad6500e2b618a17a93d518ee585ba58415aefacb4d6727937118"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/074_r10_e3.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/074_r10_e3.perf.csv",
+    "sha256": "5266623a3e897cfb78a59c00638df78057b60c194d77d84edc3b3de7b27018f5"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/074_r10_e3.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/074_r10_e3.stdout.csv",
+    "sha256": "a8717a2bd4839753560c2e50f191c8d9e9efc53d8d9a9c9eb89f8f1bc59039e3"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/074_r10_e3.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/074_r10_e3.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/075_r10_e1.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/075_r10_e1.comando.json",
+    "sha256": "df973b8399ba21a8cfb76ba21db872542e49d4b24c80faf4aff14c98ef859948"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/075_r10_e1.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/075_r10_e1.perf.csv",
+    "sha256": "a226b17066c4a4898f2c8c653af31cc9c45566de21a29b76db44ea1d4ac348ce"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/075_r10_e1.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/075_r10_e1.stdout.csv",
+    "sha256": "f6d8eceb6c084169e968a9d175c212cc3d3fe105f03e31c92f81f51ae4430ebf"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/075_r10_e1.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/075_r10_e1.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/076_r10_e5.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/076_r10_e5.comando.json",
+    "sha256": "56511bd1f9a69919162b1a493455973274d113c9984a5a8acc7e3f5a173c9c25"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/076_r10_e5.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/076_r10_e5.perf.csv",
+    "sha256": "1e8055eab04cdedf5a7616157279c8dd59f9b04294635c5a981fc335691ca1fe"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/076_r10_e5.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/076_r10_e5.stdout.csv",
+    "sha256": "40ba19b4f70002be1629dbafe5554b5a8fa117b2e904f2b06bac3e925070b0f4"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/076_r10_e5.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/076_r10_e5.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/077_r10_e8.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/077_r10_e8.comando.json",
+    "sha256": "f1024ebdca81f708a1207f61208b9f9219e8ca15e54e79e26accf4cbcb386d03"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/077_r10_e8.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/077_r10_e8.perf.csv",
+    "sha256": "91ac0eb1e5801474608dffb61f1176f480a59940d133d92351ab9db31d0cd46b"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/077_r10_e8.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/077_r10_e8.stdout.csv",
+    "sha256": "42c51e9b95011b9c0619ec15498eadeceb144c310f5d9488dc7410c53defd206"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/077_r10_e8.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/077_r10_e8.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/078_r10_e7.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/078_r10_e7.comando.json",
+    "sha256": "bbd0b5f3068d49375a95a2f9e94c991dbd9069afcaaa4c3ce1f2d25cb0ac24fb"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/078_r10_e7.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/078_r10_e7.perf.csv",
+    "sha256": "3924e14c6c63d051fc31f7f02350b3ee7bb90c1a608a062c1d8b0496a2287dbb"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/078_r10_e7.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/078_r10_e7.stdout.csv",
+    "sha256": "54f7550a409699ea33f0e7a2c2e20ff4d6a84bd5caac8ceb06901d183609859f"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/078_r10_e7.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/078_r10_e7.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/079_r10_e4.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/079_r10_e4.comando.json",
+    "sha256": "92fa9c4cbdb70d54e0812ba39095565cd5db759429b1373c8f91d271ac6104bc"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/079_r10_e4.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/079_r10_e4.perf.csv",
+    "sha256": "ca4b03ca3e4ea28df645145e7d2f9c5728a5cb82b4365cfdcd2ba41bca8f71e7"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/079_r10_e4.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/079_r10_e4.stdout.csv",
+    "sha256": "e80f23a32f82a896a5815e726d685791f7192c9f70f7cc55ab9b60e69cfd86b4"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/079_r10_e4.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/079_r10_e4.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/080_r10_e6.comando.json",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/080_r10_e6.comando.json",
+    "sha256": "449a7be773e75780bd11e2f97263428d16f0b50066d02d2db5b7516dde906171"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/080_r10_e6.perf.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/080_r10_e6.perf.csv",
+    "sha256": "5196fdbcd7d5212255e51e5add29d688a3a8091dabc5f0a731808240ab4f8494"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/080_r10_e6.stdout.csv",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/080_r10_e6.stdout.csv",
+    "sha256": "aa1326360422d8f7f5b6e271d13bcd40430fd257acd5d4f8864d7da248564b82"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/brutos/080_r10_e6.stderr.txt",
+    "zip": "dados/coleta_2026-09-07/brutos.zip",
+    "membro": "brutos/080_r10_e6.stderr.txt",
+    "sha256": "3c6628a9db779f66867bc09c3c99f04c824872bbe05026774af5cc1d48378d98"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/fontes/Main.c",
+    "zip": "dados/coleta_2026-09-07/fontes.zip",
+    "membro": "fontes/Main.c",
+    "sha256": "addae70653c2aae1716cf85030f318b16b589a746b1516459ba3a55a7ad9a3cc"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/fontes/Multiplica.h",
+    "zip": "dados/coleta_2026-09-07/fontes.zip",
+    "membro": "fontes/Multiplica.h",
+    "sha256": "057c2284e7dc4e851d3d264d2a8783698c578196939fa696347896278b878e6f"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/fontes/multiplica.c",
+    "zip": "dados/coleta_2026-09-07/fontes.zip",
+    "membro": "fontes/multiplica.c",
+    "sha256": "31162b205a6a1aefa55ce3fc5db75515acdeb88762c4f53fe78362df4711c849"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/fontes/Makefile",
+    "zip": "dados/coleta_2026-09-07/fontes.zip",
+    "membro": "fontes/Makefile",
+    "sha256": "040f3644736ff4b1be0588096b0bcc388b258c4f93df56e9a651a0ec372c3af6"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/fontes/TestaMultiplica.c",
+    "zip": "dados/coleta_2026-09-07/fontes.zip",
+    "membro": "fontes/TestaMultiplica.c",
+    "sha256": "959c7aa5c032490172f561bcd30230155538de9dc6c52a305d4a5c1ad5cfbdaa"
+  },
+  {
+    "origem": "dados/coleta_2026-09-07/fontes/scripts/coletar.py",
+    "zip": "dados/coleta_2026-09-07/fontes.zip",
+    "membro": "fontes/scripts/coletar.py",
+    "sha256": "214b53fa1076cd537629f18fd348bc71f9b4341b413f8b7a478850c6668f5d98"
+  }
+]

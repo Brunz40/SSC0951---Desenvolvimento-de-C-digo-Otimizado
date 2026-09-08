@@ -191,6 +191,37 @@ def main():
     ax.legend(ncol=4, fontsize=8)
     save(fig, 'rodadas')
 
+    # Equivalentes visuais de MEPlot e IAPlot do material de apoio.
+    # Efeitos principais: médias marginais; interação: médias por célula com IC.
+    for group, metrics, optimized, label in [
+        ('cache', METRICS[1:3], 3, 'Interchange'),
+        ('branch', METRICS[3:], 5, 'Unrolling')]:
+        fig, axes = plt.subplots(2, 3, figsize=(11, 6))
+        for axis_row, metric in zip(axes, metrics):
+            ids = [1, 2, optimized, optimized + 1]
+            scale = 1e3 if metric == 'branch-misses' else 1e6
+            values = np.array([lookup[e, metric]['media'] / scale for e in ids]).reshape(2, 2)
+            errors = np.array([lookup[e, metric]['margem_ic95'] / scale for e in ids]).reshape(2, 2)
+            unit = 'milhares' if scale == 1e3 else 'milhões'
+            axis_row[0].plot([0, 1], values.mean(axis=1), 'o-', color=COLORS[0])
+            axis_row[0].set_xticks([0, 1], ['Simples', label])
+            axis_row[0].set_title('Efeito principal: técnica')
+            axis_row[1].plot([0, 1], values.mean(axis=0), 'o-', color=COLORS[1])
+            axis_row[1].set_xticks([0, 1], ['Estática', 'Dinâmica'])
+            axis_row[1].set_title('Efeito principal: alocação')
+            for column, allocation in enumerate(['Estática', 'Dinâmica']):
+                axis_row[2].errorbar([0, 1], values[:, column], yerr=errors[:, column],
+                                    fmt='o-', capsize=4, color=COLORS[column], label=allocation)
+            axis_row[2].set_xticks([0, 1], ['Simples', label])
+            axis_row[2].set_title('Interação: médias e IC95%')
+            axis_row[2].legend(fontsize=8)
+            for ax in axis_row:
+                ax.set_ylabel(f'{metric}\n({unit})', fontsize=9)
+                ax.ticklabel_format(axis='y', useOffset=False)
+                ax.margins(x=.2, y=.15)
+                ax.grid(axis='y', alpha=.2)
+        save(fig, f'efeitos_interacoes_{group}')
+
     report_data = {'n': repetitions, 't_critico': float(t.ppf(.975, repetitions-1)),
                    'tamanho': int(rows[0]['tamanho']), 'bloco': int(rows[0]['bloco']),
                    'checksum': rows[0]['checksum'], 'resumo': summary, 'influencias': effects,

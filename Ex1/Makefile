@@ -4,15 +4,15 @@ BLOCO ?= 32
 EXPERIMENTO ?= 1
 PERF ?= $(if $(wildcard ../../.ferramentas/perf/usr/bin/perf),../../.ferramentas/perf/usr/bin/perf,perf)
 PYTHON ?= $(if $(wildcard ../../.ferramentas/venv/bin/python),../../.ferramentas/venv/bin/python,python3)
-COLETA ?= resultados/coleta_2026-09-07
-SAIDA ?= resultados/coleta_$(shell date +%Y%m%d_%H%M%S)
+COLETA ?= ../dados/coleta_2026-09-07
+SAIDA ?= ../dados/coleta_$(shell date +%Y%m%d_%H%M%S)
 RODADAS ?= 10
 CPU ?= 2
 # Todas as técnicas usam -O0; unrolling e tiling são explícitos no código.
 FLAGS = -std=c11 -g -O0 -Wall -Wextra -Werror
 DEFINES = -DTAMANHO=$(TAMANHO) -DBLOCO=$(BLOCO)
 
-.PHONY: all executar teste verificar perfil coletar analisar relatorio clean FORCE
+.PHONY: all executar teste verificar perfil coletar analisar validar-r relatorio clean FORCE
 all: build/multiplicacao
 
 # Recompila para respeitar mudanças em TAMANHO/BLOCO sem usar os .o antigos.
@@ -47,8 +47,12 @@ coletar: build/multiplicacao
 analisar:
 	$(PYTHON) scripts/analisar.py "$(COLETA)"
 
-relatorio:
+validar-r: analisar
+	$(PYTHON) scripts/executar_R.py "$(COLETA)"
+
+relatorio: validar-r
 	$(PYTHON) scripts/relatorio.py "$(COLETA)"
+	$(PYTHON) scripts/relatorio_detalhado.py "$(COLETA)"
 
 clean:
 	rm -rf build
