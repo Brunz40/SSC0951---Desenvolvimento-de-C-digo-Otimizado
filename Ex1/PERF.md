@@ -43,7 +43,7 @@ verificação efetiva.
 
 - `stat` conta eventos enquanto o comando é executado.
 - `-e` escolhe os eventos. As chaves pedem que eles sejam medidos juntos.
-- `:u` conta instruções executadas em modo usuário, excluindo o kernel.
+- `:u` restringe a contagem ao modo usuário, excluindo a execução no kernel.
 - `--` separa as opções do perf do comando medido.
 - `taskset -c 2` mantém o programa na CPU lógica 2. Não impede que outros
   processos usem esse núcleo ou a CPU irmã.
@@ -84,6 +84,62 @@ Conferir:
 Os nomes e a disponibilidade dos eventos dependem do processador. A opção
 `:u` permitiu a coleta nesta máquina com a configuração atual do kernel;
 não foi necessário mudar permissões.
+
+## Comparar versões diretamente no terminal
+
+Mantenha o mesmo comando do passo 3 e troque apenas o último número:
+
+| Versão | Estática | Dinâmica |
+| --- | --- | --- |
+| Simples | 1 | 2 |
+| Interchange | 3 | 4 |
+| Unrolling | 5 | 6 |
+| Tiling | 7 | 8 |
+
+Compare 1 com 3 para observar as faltas de cache e 1 com 5 para observar
+as instruções de desvio. Faça o equivalente com 2/4 e 2/6 para alocação dinâmica.
+
+Para repetir um comando dez vezes:
+
+```sh
+"$perf_atividade" stat -r 10 \
+  -e '{L1-dcache-loads:u,L1-dcache-load-misses:u,branch-instructions:u,branch-misses:u}' \
+  -- taskset -c 2 ./Ex1/build/multiplicacao 1
+```
+
+O perf apresenta médias e uma medida de dispersão. O percentual entre
+parênteses da repetição não é o intervalo t de Student de 95% do relatório.
+
+A taxa de faltas de L1 é `100 * L1-dcache-load-misses / L1-dcache-loads`.
+A taxa de erro de predição é `100 * branch-misses / branch-instructions`.
+Por exemplo, 50 faltas em 1.000 leituras correspondem a 5% de faltas.
+
+## Ver quais funções concentram as amostras
+
+`stat` conta eventos. `record` registra amostras da execução, que podem ser
+examinadas por função com `report`:
+
+```sh
+pasta_amostras="$(mktemp -d Ex1/build/perf_amostras_XXXXXX)"
+"$perf_atividade" record -e cycles:u -o "$pasta_amostras/perf.data" \
+  -- taskset -c 2 ./Ex1/build/multiplicacao 1
+"$perf_atividade" report --stdio -i "$pasta_amostras/perf.data"
+```
+
+Procure a coluna `Symbol`: ela contém os nomes das funções. O percentual de
+`Overhead` indica a participação de cada função nas amostras ponderadas do
+evento escolhido. Aqui o evento é ciclos de CPU; o percentual não é uma
+taxa de erro de cache ou de predição.
+
+Para abrir a interface navegável no terminal:
+
+```sh
+"$perf_atividade" report --tui -i "$pasta_amostras/perf.data"
+```
+
+Use as setas para navegar, Enter para abrir as opções de uma função e `q`
+para sair. Isso é um exercício de exploração; a atividade usa as contagens
+do `perf stat`.
 
 ## 5. Medir somente o cálculo
 
@@ -150,7 +206,8 @@ os quatro contadores em uma linha; `metadados.json` registra a configuração.
 Depois de conferir a execução individual:
 
 ```sh
-make coletar TAMANHO=512 BLOCO=32 RODADAS=10 CPU=2 SAIDA=dados/coleta_vscode
+pasta_coleta="dados/pratica_perf_$(date +%Y%m%d_%H%M%S)"
+make coletar TAMANHO=512 BLOCO=32 RODADAS=10 CPU=2 SAIDA="$pasta_coleta"
 ```
 
 Isso executa dez rodadas. Cada rodada contém os oito experimentos em uma
@@ -165,13 +222,15 @@ intervalo de confiança.
 ## 8. Calcular as estatísticas
 
 ```sh
-make relatorio COLETA=dados/coleta_vscode
+make validar-r COLETA="$pasta_coleta"
+cat "$pasta_coleta/analise/resumo.csv"
 ```
 
 `analise/resumo.csv` contém 40 linhas: oito experimentos vezes cinco
 métricas. Cada linha informa `n`, média, desvio padrão e limites do IC95%.
-O arquivo `validacao_R.txt` confirma a comparação com R. Os dois PDFs ficam
-em `entrega/`.
+O arquivo `validacao_R.txt` confirma a comparação com R. Esse comando
+atualiza apenas a análise da pasta de prática. O relatório de entrega continua
+usando `dados/coleta_entrega/`.
 
 Para conferir uma linha à mão: calcule a média das dez observações, o desvio
 padrão amostral e a margem `2,262157 × desvio / √10`. O intervalo é a média
@@ -179,4 +238,4 @@ menos/mais essa margem. Não misture observações de coletas diferentes.
 As interpretações do relatório também precisam ser revisadas quando os
 resultados mudarem.
 
-Referência das opções: [manual do perf stat](https://man7.org/linux/man-pages/man1/perf-stat.1.html).
+Documentação: [perf stat](https://man7.org/linux/man-pages/man1/perf-stat.1.html), [perf record](https://man7.org/linux/man-pages/man1/perf-record.1.html) e [perf report](https://man7.org/linux/man-pages/man1/perf-report.1.html).

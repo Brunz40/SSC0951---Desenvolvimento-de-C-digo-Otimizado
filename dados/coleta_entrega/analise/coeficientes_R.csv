@@ -1,0 +1,17 @@
+"metrica","termo","q"
+"L1-dcache-loads","(Intercept)",2764660473.075
+"L1-dcache-loads","Tecnica",-1539870.92500012
+"L1-dcache-loads","Alocacao",335239432.925
+"L1-dcache-loads","Tecnica:Alocacao",409875.124999881
+"L1-dcache-load-misses","(Intercept)",73929642.75
+"L1-dcache-load-misses","Tecnica",-65218883.25
+"L1-dcache-load-misses","Alocacao",1308694.25
+"L1-dcache-load-misses","Tecnica:Alocacao",-1266429.04999999
+"branch-instructions","(Intercept)",101847783.1
+"branch-instructions","Tecnica",-33423373.75
+"branch-instructions","Alocacao",-77.8999999988824
+"branch-instructions","Tecnica:Alocacao",24.5499999925494
+"branch-misses","(Intercept)",264160.85
+"branch-misses","Tecnica",-16.900000000033
+"branch-misses","Alocacao",19.7499999999612
+"branch-misses","Tecnica:Alocacao",0.400000000032982

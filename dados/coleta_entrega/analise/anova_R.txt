@@ -1,0 +1,137 @@
+$`L1-dcache-loads`
+$`L1-dcache-loads`$plano
+  Tecnica Alocacao experimento    resultado
+1      -1       -1           1 2431370786.2
+2       1       -1           3 2427471294.1
+3      -1        1           2 3101029901.8
+4       1        1           4 3098769910.2
+
+$`L1-dcache-loads`$anova_medias
+Analysis of Variance Table
+
+Response: resultado
+                 Df             Sum Sq            Mean Sq F value Pr(>F)
+Tecnica           1      9484809862643      9484809862643     NaN    NaN
+Alocacao          1 449541909551502464 449541909551502464     NaN    NaN
+Tecnica:Alocacao  1       671990472375       671990472375     NaN    NaN
+Residuals         0                  0                NaN               
+
+$`L1-dcache-loads`$anova_replicas
+Analysis of Variance Table
+
+Response: resultado
+                 Df              Sum Sq             Mean Sq       F value
+Tecnica           1      94848098626415      94848098626415      29.87646
+Alocacao          1 4495419095515023872 4495419095515023872 1416024.15744
+Tecnica:Alocacao  1       6719904723751       6719904723751       2.11672
+Residuals        36     114288366189564       3174676838599              
+                     Pr(>F)    
+Tecnica          3.5967e-06 ***
+Alocacao         < 2.22e-16 ***
+Tecnica:Alocacao    0.15436    
+Residuals                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$`L1-dcache-load-misses`
+$`L1-dcache-load-misses`$plano
+  Tecnica Alocacao experimento           resultado
+1      -1       -1           1 136573402.699999988
+2       1       -1           3   8668494.300000001
+3      -1        1           2 141723649.300000012
+4       1        1           4   8753024.699999999
+
+$`L1-dcache-load-misses`$anova_medias
+Analysis of Variance Table
+
+Response: resultado
+                 Df            Sum Sq           Mean Sq F value Pr(>F)
+Tecnica           1 17014010929508530 17014010929508530     NaN    NaN
+Alocacao          1     6850722559932     6850722559932     NaN    NaN
+Tecnica:Alocacao  1     6415370154736     6415370154736     NaN    NaN
+Residuals         0                 0               NaN               
+
+$`L1-dcache-load-misses`$anova_replicas
+Analysis of Variance Table
+
+Response: resultado
+                 Df             Sum Sq            Mean Sq       F value
+Tecnica           1 170140109295085280 170140109295085280 2331406.60235
+Alocacao          1     68507225599322     68507225599322     938.74512
+Tecnica:Alocacao  1     64153701547356     64153701547356     879.08938
+Residuals        36      2627188208380        72977450233              
+                     Pr(>F)    
+Tecnica          < 2.22e-16 ***
+Alocacao         < 2.22e-16 ***
+Tecnica:Alocacao < 2.22e-16 ***
+Residuals                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$`branch-instructions`
+$`branch-instructions`$plano
+  Tecnica Alocacao experimento   resultado
+1      -1       -1           1 135271259.3
+2       1       -1           5  68424462.7
+3      -1        1           2 135271054.4
+4       1        1           6  68424356.0
+
+$`branch-instructions`$anova_medias
+Analysis of Variance Table
+
+Response: resultado
+                 Df           Sum Sq          Mean Sq F value Pr(>F)
+Tecnica           1 4468487651328754 4468487651328754     NaN    NaN
+Alocacao          1            24274            24274     NaN    NaN
+Tecnica:Alocacao  1             2411             2411     NaN    NaN
+Residuals         0                0              NaN               
+
+$`branch-instructions`$anova_replicas
+Analysis of Variance Table
+
+Response: resultado
+                 Df            Sum Sq           Mean Sq             F value
+Tecnica           1 44684876513287536 44684876513287536 1.9417419722096e+14
+Alocacao          1            242736            242736 1.0547896600000e+03
+Tecnica:Alocacao  1             24108             24108 1.0475963000000e+02
+Residuals        36              8285               230                    
+                     Pr(>F)    
+Tecnica          < 2.22e-16 ***
+Alocacao         < 2.22e-16 ***
+Tecnica:Alocacao 3.3259e-12 ***
+Residuals                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$`branch-misses`
+$`branch-misses`$plano
+  Tecnica Alocacao experimento resultado
+1      -1       -1           1  264158.4
+2       1       -1           5  264123.8
+3      -1        1           2  264197.1
+4       1        1           6  264164.1
+
+$`branch-misses`$anova_medias
+Analysis of Variance Table
+
+Response: resultado
+                 Df           Sum Sq          Mean Sq F value Pr(>F)
+Tecnica           1 1142.44000000446 1142.44000000446     NaN    NaN
+Alocacao          1 1560.24999999387 1560.24999999387     NaN    NaN
+Tecnica:Alocacao  1    0.64000000011    0.64000000011     NaN    NaN
+Residuals         0    0.00000000000              NaN               
+
+$`branch-misses`$anova_replicas
+Analysis of Variance Table
+
+Response: resultado
+                 Df          Sum Sq          Mean Sq F value  Pr(>F)
+Tecnica           1  11424.40000001 11424.4000000065 0.63307 0.43145
+Alocacao          1  15602.49999999 15602.4999999924 0.86460 0.35865
+Tecnica:Alocacao  1      6.40000000     6.4000000002 0.00035 0.98508
+Residuals        36 649653.79999993 18045.9388888869                
+
+

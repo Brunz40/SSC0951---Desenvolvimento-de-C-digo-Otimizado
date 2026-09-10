@@ -47,8 +47,8 @@ make coletar TAMANHO=512 BLOCO=32 RODADAS=10 CPU=2 SAIDA=dados/nova_coleta
 make relatorio COLETA=dados/nova_coleta
 ```
 
-As descrições dos resultados nos PDFs foram redigidas para a coleta original;
-para uma campanha diferente, revisar também a interpretação, além das tabelas.
+Os PDFs usam `dados/coleta_entrega/` por padrão. Para outra coleta, revisar
+também a interpretação dos resultados, além de atualizar as tabelas.
 `make perfil SAIDA=dados/novo_piloto` executa uma rodada exploratória das oito
 configurações. O piloto não deve ser misturado à amostra definitiva.
 

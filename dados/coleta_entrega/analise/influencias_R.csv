@@ -1,0 +1,13 @@
+"metrica","fator","influencia_pct_entre_medias","influencia_pct_total"
+"L1-dcache-loads","tecnica",0.00210983567256471,0.00210978203616498
+"L1-dcache-loads","alocacao",99.9977406843177,99.995198534315
+"L1-dcache-loads","interacao",0.000149480009696751,0.000149476209604923
+"L1-dcache-load-misses","tecnica",99.9220891708207,99.9205474675658
+"L1-dcache-load-misses","alocacao",0.0402338116129256,0.0402331908432956
+"L1-dcache-load-misses","interacao",0.0376770175663582,0.0376764362456409
+"branch-instructions","tecnica",99.9999999994028,99.9999999993843
+"branch-instructions","alocacao",5.4321824055932e-10,5.43218240514296e-10
+"branch-instructions","interacao",5.39513631151118e-11,5.39513631384614e-11
+"branch-misses","tecnica",42.2604713447904,1.68828399418397
+"branch-misses","alocacao",57.7158541500584,2.3057185514537
+"branch-misses","interacao",0.0236745051512732,0.000945784248023266

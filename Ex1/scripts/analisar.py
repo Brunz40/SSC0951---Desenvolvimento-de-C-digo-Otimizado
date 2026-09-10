@@ -140,7 +140,7 @@ def main():
                     f'E{experiment}\n{mean:.3f}', ha='center', va='bottom', fontsize=8)
     ax.set_xticks(range(4), NAMES)
     ax.set_ylabel('Tempo do cálculo (s)')
-    ax.set_title(f'Oito configurações — média e IC de 95% (n={repetitions})')
+    ax.set_title(f'Oito configurações: média e IC de 95% (n={repetitions})')
     ax.set_ylim(0, max(lookup[e,'tempo_segundos']['ic95_superior'] for e in range(1,9)) * 1.2)
     ax.legend(loc='upper left')
     save(fig, 'tempos')
@@ -173,7 +173,7 @@ def main():
             if value >= 5:
                 ax.text(base+value/2, y, f'{value:.1f}%', ha='center', va='center', color='white')
         left += values
-    ax.set_yticks(positions, ['L1 loads (E1–E4)', 'L1 misses (E1–E4)',
+    ax.set_yticks(positions, ['L1 loads (E1 a E4)', 'L1 misses (E1 a E4)',
                             'Branch instr. (E1,E2,E5,E6)', 'Branch misses (E1,E2,E5,E6)'])
     ax.set_xlim(0,100)
     ax.set_xlabel('Parcela da soma de quadrados total (%)')

@@ -5,7 +5,7 @@
 
 ## O que abrir
 
-- **[Relatório para entrega](entrega/Relatorio_Atividade2.pdf)** — resultados dos oito experimentos.
+- **[Relatório para entrega](entrega/Relatorio_Atividade2.pdf)** — quatro páginas com tempos dos oito experimentos e as comparações escolhidas de cache e branch.
 - [Anexo técnico](entrega/Anexo_tecnico.pdf) — explicações completas, efeitos principais, interações e reprodução.
 
 ## Organização
@@ -14,7 +14,8 @@
 | --- | --- |
 | `entrega/` | Relatório principal e anexo técnico |
 | `Ex1/` | Código C, teste das oito versões e scripts atuais |
-| `dados/coleta_2026-09-07/` | 80 medições, metadados e análises |
+| `dados/coleta_entrega/` | 80 medições usadas no relatório, metadados e análises |
+| `dados/coleta_2026-09-07/` e `dados/coleta_vscode/` | Coletas anteriores preservadas |
 | `historico/` | Piloto, teste antigo, binários antigos e versões anteriores, compactados |
 
 Dentro da coleta, `medicoes.csv` contém as medições; `analise/` contém as
@@ -31,6 +32,7 @@ make relatorio             # recalcula a análise, confere em R e gera os dois P
 ```
 
 O número do experimento vai de 1 a 8, na ordem do enunciado. Os PDFs usam os dados salvos; `make relatorio` não refaz a coleta.
+`make relatorio` utiliza `dados/coleta_entrega/` por padrão.
 Os nomes e números USP ficam em `Ex1/integrantes.json`.
 
 Para mais detalhes: [instruções do código e da coleta](Ex1/README.md).

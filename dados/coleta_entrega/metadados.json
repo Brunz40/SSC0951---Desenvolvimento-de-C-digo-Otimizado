@@ -1,0 +1,394 @@
+{
+  "inicio_utc": "2026-09-09T23:46:21.620777+00:00",
+  "condicao_informada_pelo_usuario": "Usuário informou ter fechado os demais aplicativos e mantido apenas o VS Code aberto.",
+  "ambiente_inicio": {
+    "instante_utc": "2026-09-09T23:46:21.686999+00:00",
+    "processos": "    PID COMMAND         %CPU %MEM\n 255068 ps               200  0.0\n   4531 gnome-shell      6.6  1.0\n 254811 python           3.3  0.1\n   7353 code             1.5  3.7\n   6742 code             1.4  2.6\n 245148 code             1.3  2.0\n   6524 code             1.0  1.0\n 247793 code             0.9  2.4\n   6310 code             0.7  1.4\n    876 irq/77-rtw89_pc  0.7  0.0\n 223320 code             0.6  2.0\n   4897 pipewire-pulse   0.3  0.1\n   4515 pipewire         0.3  0.1\n 254337 systemd-hostnam  0.2  0.0\n   1231 containerd       0.2  0.2\n 253737 kworker/u65:8-b  0.2  0.0\n 223606 codex            0.2  0.9\n    144 kswapd0          0.1  0.0\n 244418 gnome-text-edit  0.1  0.9\n   4672 ibus-daemon      0.1  0.1\n   7659 code             0.1  0.5\n    517 btrfs-transacti  0.1  0.0\n   1286 dockerd          0.1  0.3\n     16 rcu_preempt      0.1  0.0\n 254259 kworker/u66:5-b  0.1  0.0\n    124 kcompactd0       0.1  0.0\n   7476 code             0.1  0.5\n    919 systemd-oomd     0.0  0.0\n 245263 kworker/u64:2-g  0.0  0.0\n 237531 kworker/u64:0-c  0.0  0.0\n   1976 containerd-shim  0.0  0.0\n 235493 kworker/u65:0-b  0.0  0.0\n 211654 kworker/u64:1-c  0.0  0.0\n   4896 gnome-software   0.0  0.2\n 244103 kworker/u65:4-b  0.0  0.0\n 231615 kworker/u65:13-  0.0  0.0\n 244458 kworker/u65:7-b  0.0  0.0\n 250818 kworker/u66:4-b  0.0  0.0\n 244457 kworker/u65:6-b  0.0  0.0\n   4516 wireplumber      0.0  0.2\n 241955 kworker/u65:3-b  0.0  0.0\n 231627 kworker/u65:28-  0.0  0.0\n 231629 kworker/u65:30-  0.0  0.0\n    951 NetworkManager   0.0  0.1\n   4893 localsearch-3    0.0  0.2\n   3946 systemd          0.0  0.1\n 248013 kworker/u65:2-b  0.0  0.0\n 231919 kworker/u66:8-b  0.0  0.0\n 234898 kworker/u66:0-b  0.0  0.0\n 223356 code             0.0  0.6\n 231710 kworker/u66:3-b  0.0  0.0\n 231621 kworker/u65:20-  0.0  0.0\n 211556 kworker/u65:26-  0.0  0.0\n 231918 kworker/u66:7-b  0.0  0.0\n   5140 ibus-engine-sim  0.0  0.0\n   7272 code             0.0  0.5\n 232010 kworker/u66:9-b  0.0  0.0\n 241161 kworker/u66:2-b  0.0  0.0\n 251675 kworker/u65:5-e  0.0  0.0\n 232069 kworker/u66:14-  0.0  0.0\n 241954 kworker/u65:1-b  0.0  0.0\n 250817 kworker/u66:1-b  0.0  0.0\n   6563 code             0.0  0.4\n 232068 kworker/u66:13-  0.0  0.0\n 232070 kworker/u66:15-  0.0  0.0\n 241163 kworker/u66:12-  0.0  0.0\n   4841 ibus-extension-  0.0  0.1\n 180158 nautilus         0.0  0.5\n 248839 kworker/0:0-eve  0.0  0.0\n    969 polkitd          0.0  0.1\n 241162 kworker/u66:11-  0.0  0.0\n    920 systemd-resolve  0.0  0.0\n   1223 tuned            0.0  0.1\n   2047 postgres         0.0  0.0\n   1007 upowerd          0.0  0.1\n   4486 uresourced       0.0  0.0\n    953 avahi-daemon     0.0  0.0\n      1 systemd          0.0  0.1\n   2048 python           0.0  0.0\n 231594 kworker/2:1-eve  0.0  0.0\n   5178 gvfsd-trash      0.0  0.1\n 231602 kworker/8:1-eve  0.0  0.0\n 244622 kworker/10:2-ev  0.0  0.0\n 231598 kworker/6:1-eve  0.0  0.0\n 231596 kworker/4:1-eve  0.0  0.0\n 231608 kworker/14:1-ev  0.0  0.0\n 231606 kworker/12:1-ev  0.0  0.0\n   4118 dbus-broker      0.0  0.0\n 240074 codex-code-mode  0.0  0.0\n 231872 sssd_kcm         0.0  0.0\n   8754 code             0.0  0.2\n   1267 tuned-ppd        0.0  0.1\n    950 dbus-broker      0.0  0.0\n   4718 gsd-media-keys   0.0  0.1\n   1974 containerd-shim  0.0  0.0\n   1973 containerd-shim  0.0  0.0\n   4969 goa-identity-se  0.0  0.0\n 231603 kworker/9:2-mm_  0.0  0.0\n 231593 kworker/1:1-mm_  0.0  0.0\n 247453 kworker/u68:1-t  0.0  0.0\n     15 ksoftirqd/0      0.0  0.0\n 231609 kworker/15:2-ev  0.0  0.0\n 231605 kworker/11:1-ev  0.0  0.0\n 231607 kworker/13:1-ev  0.0  0.0\n 231599 kworker/7:1-eve  0.0  0.0\n 236011 kworker/u68:2-t  0.0  0.0\n    465 irq/57-MSFT0001  0.0  0.0\n 231595 kworker/3:1-eve  0.0  0.0\n 247888 kworker/5:0-eve  0.0  0.0\n   6897 mutter-x11-fram  0.0  0.2\n   2053 httpd            0.0  0.0\n 237602 kworker/u68:9-t  0.0  0.0\n   5024 xdg-desktop-por  0.0  0.2\n   4762 gsd-sharing      0.0  0.1\n 247560 kworker/u68:15-  0.0  0.0\n    994 systemd-machine  0.0  0.0\n   5736 xdg-desktop-por  0.0  0.1\n   4701 gsd-housekeepin  0.0  0.0\n    984 systemd-homed    0.0  0.0\n  73683 wsdd             0.0  0.1\n   4494 gnome-session-s  0.0  0.1\n   1305 gdm              0.0  0.0\n   6754 Xwayland         0.0  0.1\n   5020 gvfs-afc-volume  0.0  0.0\n 244749 kworker/u68:3-t  0.0  0.0\n    663 systemd-journal  0.0  0.1\n   1206 wpa_supplicant   0.0  0.0\n   6849 gsd-xsettings    0.0  0.1\n 236012 kworker/u68:4-t  0.0  0.0\n   4725 gsd-power        0.0  0.1\n 237604 kworker/u68:13-  0.0  0.0\n   4960 xdg-desktop-por  0.0  0.1\n   1288 ollama           0.0  0.0\n   1035 psimon           0.0  0.0\n 247559 kworker/u68:14-  0.0  0.0\n 244747 kworker/u68:0-r  0.0  0.0\n   1257 abrt-dump-journ  0.0  0.1\n 237601 kworker/u68:7-t  0.0  0.0\n   8640 ibus-engine-tb   0.0  0.2\n   4615 at-spi2-registr  0.0  0.0\n    706 systemd-udevd    0.0  0.0\n   1256 abrt-dump-journ  0.0  0.1\n   5253 gvfsd-metadata   0.0  0.1\n    991 systemd-logind   0.0  0.0\n   4758 gsd-screensaver  0.0  0.0\n   1258 abrt-dump-journ  0.0  0.1\n 237600 kworker/u68:6-r  0.0  0.0\n     68 ksoftirqd/1      0.0  0.0\n 247556 kworker/u68:11-  0.0  0.0\n   4895 evolution-alarm  0.0  0.2\n   4689 gsd-color        0.0  0.0\n 223376 bash             0.0  0.0\n 244940 kworker/u68:5-t  0.0  0.0\n   1222 gssproxy         0.0  0.0\n    971 rtkit-daemon     0.0  0.0\n     18 rcu_exp_gp_kthr  0.0  0.0\n   4765 gsd-smartcard    0.0  0.1\n   8282 glycin-image-rs  0.0  0.0\n 248648 kworker/u68:16-  0.0  0.0\n   2450 pcscd            0.0  0.0\n   4744 gsd-rfkill       0.0  0.0\n   4614 dbus-broker      0.0  0.0\n   4729 gsd-print-notif  0.0  0.1\n   4711 gsd-keyboard     0.0  0.0\n   4673 gsd-a11y-settin  0.0  0.0\n   4695 gsd-datetime     0.0  0.1\n   4777 gsd-usb-protect  0.0  0.0\n   4661 gjs              0.0  0.2\n    550 kworker/10:1H-k  0.0  0.0\n   4784 gsd-wwan         0.0  0.1\n   4771 gsd-sound        0.0  0.0\n    551 kworker/11:1H-k  0.0  0.0\n 247517 kworker/u68:8-t  0.0  0.0\n 247518 kworker/u68:10-  0.0  0.0\n   1001 udisksd          0.0  0.1\n    608 kworker/14:1H-k  0.0  0.0\n    544 kworker/8:1H-kb  0.0  0.0\n     43 migration/8      0.0  0.0\n 232400 kworker/u69:10-  0.0  0.0\n   4887 gjs              0.0  0.2\n 232063 kworker/u69:5-t  0.0  0.0\n   2324 postgres         0.0  0.0\n    595 kworker/9:1H-kb  0.0  0.0\n   1170 ModemManager     0.0  0.0\n   2330 postgres         0.0  0.0\n    588 kworker/2:1H-kb  0.0  0.0\n     49 migration/10     0.0  0.0\n     55 migration/12     0.0  0.0\n    589 kworker/3:1H-kb  0.0  0.0\n    585 kworker/0:1H-kb  0.0  0.0\n    552 kworker/12:1H-k  0.0  0.0\n     26 ksoftirqd/2      0.0  0.0\n     19 migration/0      0.0  0.0\n    494 kworker/6:1H-kb  0.0  0.0\n    648 kworker/7:1H-kb  0.0  0.0\n     61 migration/14     0.0  0.0\n     97 migration/11     0.0  0.0\n    103 migration/13     0.0  0.0\n 235310 kworker/u69:3-t  0.0  0.0\n 235311 kworker/u69:4-t  0.0  0.0\n 235312 kworker/u69:6-t  0.0  0.0\n 235313 kworker/u69:7-r  0.0  0.0\n 235315 kworker/u69:9-t  0.0  0.0\n    586 kworker/4:1H-kb  0.0  0.0\n    959 chronyd          0.0  0.0\n   2331 postgres         0.0  0.0\n     25 migration/2      0.0  0.0\n 244634 kworker/u69:0-t  0.0  0.0\n    620 kworker/5:1H-kb  0.0  0.0\n     31 migration/4      0.0  0.0\n     67 migration/1      0.0  0.0\n     91 migration/9      0.0  0.0\n   5129 abrt-dbus        0.0  0.1\n   4649 evolution-sourc  0.0  0.2\n     37 migration/6      0.0  0.0\n     73 migration/3      0.0  0.0\n    109 migration/15     0.0  0.0\n     85 migration/7      0.0  0.0\n   4935 evolution-calen  0.0  0.1\n     79 migration/5      0.0  0.0\n   4889 gvfs-udisks2-vo  0.0  0.1\n   2083 colord           0.0  0.1\n    766 kworker/13:1H-k  0.0  0.0\n    695 systemd-userdbd  0.0  0.0\n    645 kworker/15:1H-k  0.0  0.0\n     32 ksoftirqd/4      0.0  0.0\n    976 accounts-daemon  0.0  0.0\n    594 kworker/1:1H-kb  0.0  0.0\n     74 ksoftirqd/3      0.0  0.0\n    954 bluetoothd       0.0  0.0\n   4632 gnome-shell-cal  0.0  0.1\n   3874 gdm-session-wor  0.0  0.1\n     38 ksoftirqd/6      0.0  0.0\n     44 ksoftirqd/8      0.0  0.0\n     56 ksoftirqd/12     0.0  0.0\n 235320 kworker/u69:15-  0.0  0.0\n 235318 kworker/u69:13-  0.0  0.0\n 235319 kworker/u69:14-  0.0  0.0\n 235316 kworker/u69:11-  0.0  0.0\n     50 ksoftirqd/10     0.0  0.0\n   5019 evolution-addre  0.0  0.1\n     62 ksoftirqd/14     0.0  0.0\n  73635 gvfsd-recent     0.0  0.1\n   4884 abrt-applet      0.0  0.1\n     86 ksoftirqd/7      0.0  0.0\n      2 kthreadd         0.0  0.0\n     80 ksoftirqd/5      0.0  0.0\n   4922 goa-daemon       0.0  0.1\n   3967 gnome-keyring-d  0.0  0.0\n   1113 abrtd            0.0  0.1\n    965 low-memory-moni  0.0  0.0\n    949 dbus-broker-lau  0.0  0.0\n    921 auditd           0.0  0.0\n     98 ksoftirqd/11     0.0  0.0\n    104 ksoftirqd/13     0.0  0.0\n    110 ksoftirqd/15     0.0  0.0\n    979 switcheroo-cont  0.0  0.0\n     92 ksoftirqd/9      0.0  0.0\n   4985 xdg-document-po  0.0  0.0\n   4883 ibus-portal      0.0  0.0\n   4123 gnome-session-i  0.0  0.0\n   2142 docker-proxy     0.0  0.0\n   6936 ibus-x11         0.0  0.2\n   2188 docker-proxy     0.0  0.0\n   2182 docker-proxy     0.0  0.0\n   2152 docker-proxy     0.0  0.0\n  73672 gvfsd-dnssd      0.0  0.0\n   4495 gvfsd            0.0  0.0\n   4104 dbus-broker-lau  0.0  0.0\n   1382 uresourced       0.0  0.0\n    837 kworker/u67:1-h  0.0  0.0\n   5164 gsd-printer      0.0  0.1\n   4708 gsd-disk-utilit  0.0  0.0\n    974 smartd           0.0  0.0\n    149 kworker/u67:0-h  0.0  0.0\n    130 irq/9-acpi       0.0  0.0\n  49907 flatpak-session  0.0  0.0\n   6464 chrome_crashpad  0.0  0.0\n   6352 code             0.0  0.1\n   4633 xdg-permission-  0.0  0.0\n   1219 cupsd            0.0  0.0\n   1053 alsactl          0.0  0.0\n    516 btrfs-cleaner    0.0  0.0\n  46548 ssh-agent        0.0  0.0\n  46544 gcr-ssh-agent    0.0  0.0\n   6356 code             0.0  0.1\n   4958 gvfs-gphoto2-vo  0.0  0.0\n   4936 gvfs-mtp-volume  0.0  0.0\n   4639 dconf-service    0.0  0.0\n   6361 code             0.0  0.0\n   4607 at-spi-bus-laun  0.0  0.0\n  73666 gvfsd-network    0.0  0.0\n   8280 bwrap            0.0  0.0\n   6100 gnome-keyring-d  0.0  0.0\n   4990 gvfs-goa-volume  0.0  0.0\n   4504 gvfsd-fuse       0.0  0.0\n   4092 gdm-wayland-ses  0.0  0.0\n   2332 postgres         0.0  0.0\n   2323 postgres         0.0  0.0\n   1304 atd              0.0  0.0\n    115 kdevtmpfs        0.0  0.0\n    119 kauditd          0.0  0.0\n     41 cpuhp/8          0.0  0.0\n     47 cpuhp/10         0.0  0.0\n     53 cpuhp/12         0.0  0.0\n     59 cpuhp/14         0.0  0.0\n     95 cpuhp/11         0.0  0.0\n    101 cpuhp/13         0.0  0.0\n    107 cpuhp/15         0.0  0.0\n      3 pool_workqueue_  0.0  0.0\n      4 kworker/R-rcu_g  0.0  0.0\n      5 kworker/R-sync_  0.0  0.0\n      6 kworker/R-kvfre  0.0  0.0\n      7 kworker/R-slub_  0.0  0.0\n      8 kworker/R-netns  0.0  0.0\n     10 kworker/0:0H-kb  0.0  0.0\n     13 kworker/R-mm_pe  0.0  0.0\n     17 rcu_exp_par_gp_  0.0  0.0\n     20 kprobe-optimize  0.0  0.0\n     21 idle_inject/0    0.0  0.0\n     22 cpuhp/0          0.0  0.0\n     23 cpuhp/2          0.0  0.0\n     24 idle_inject/2    0.0  0.0\n     28 kworker/2:0H-kb  0.0  0.0\n     29 cpuhp/4          0.0  0.0\n     30 idle_inject/4    0.0  0.0\n     34 kworker/4:0H-kb  0.0  0.0\n     35 cpuhp/6          0.0  0.0\n     36 idle_inject/6    0.0  0.0\n     40 kworker/6:0H-kb  0.0  0.0\n     42 idle_inject/8    0.0  0.0\n     46 kworker/8:0H-kb  0.0  0.0\n     48 idle_inject/10   0.0  0.0\n     52 kworker/10:0H-k  0.0  0.0\n     54 idle_inject/12   0.0  0.0\n     58 kworker/12:0H-k  0.0  0.0\n     60 idle_inject/14   0.0  0.0\n     64 kworker/14:0H-k  0.0  0.0\n     65 cpuhp/1          0.0  0.0\n     66 idle_inject/1    0.0  0.0\n     70 kworker/1:0H-kb  0.0  0.0\n     71 cpuhp/3          0.0  0.0\n     72 idle_inject/3    0.0  0.0\n     76 kworker/3:0H-kb  0.0  0.0\n     77 cpuhp/5          0.0  0.0\n     78 idle_inject/5    0.0  0.0\n     82 kworker/5:0H-kb  0.0  0.0\n     83 cpuhp/7          0.0  0.0\n     84 idle_inject/7    0.0  0.0\n     88 kworker/7:0H-kb  0.0  0.0\n     89 cpuhp/9          0.0  0.0\n     90 idle_inject/9    0.0  0.0\n     94 kworker/9:0H-kb  0.0  0.0\n     96 idle_inject/11   0.0  0.0\n    100 kworker/11:0H-k  0.0  0.0\n    102 idle_inject/13   0.0  0.0\n    106 kworker/13:0H-k  0.0  0.0\n    108 idle_inject/15   0.0  0.0\n    112 kworker/15:0H-k  0.0  0.0\n    116 kworker/R-inet_  0.0  0.0\n    117 rcu_tasks_kthre  0.0  0.0\n    118 rcu_tasks_rude_  0.0  0.0\n    120 oom_reaper       0.0  0.0\n    123 kworker/R-write  0.0  0.0\n    125 ksmd             0.0  0.0\n    126 khugepaged       0.0  0.0\n    127 kworker/R-kbloc  0.0  0.0\n    128 kworker/R-blkcg  0.0  0.0\n    129 kworker/R-kinte  0.0  0.0\n    131 kworker/R-tpm_d  0.0  0.0\n    132 kworker/R-ata_s  0.0  0.0\n    133 kworker/R-md_bi  0.0  0.0\n    134 kworker/R-edac-  0.0  0.0\n    135 kworker/R-devfr  0.0  0.0\n    136 watchdogd        0.0  0.0\n    138 kworker/R-quota  0.0  0.0\n    139 irq/25-AMD-Vi0-  0.0  0.0\n    140 irq/26-AMD-Vi0-  0.0  0.0\n    141 irq/27-AMD-Vi0-  0.0  0.0\n    145 kworker/R-crypt  0.0  0.0\n    148 kworker/R-kthro  0.0  0.0\n    150 kworker/R-acpi_  0.0  0.0\n    154 scsi_eh_0        0.0  0.0\n    155 kworker/R-scsi_  0.0  0.0\n    156 scsi_eh_1        0.0  0.0\n    157 kworker/R-scsi_  0.0  0.0\n    159 kworker/R-dm_bu  0.0  0.0\n    166 kworker/R-mld    0.0  0.0\n    167 kworker/R-ipv6_  0.0  0.0\n    168 kworker/R-kstrp  0.0  0.0\n    486 kworker/R-nvme-  0.0  0.0\n    487 kworker/R-nvme-  0.0  0.0\n    488 kworker/R-nvme-  0.0  0.0\n    489 kworker/R-nvme-  0.0  0.0\n    503 kworker/R-btrfs  0.0  0.0\n    504 kworker/R-btrfs  0.0  0.0\n    505 kworker/R-btrfs  0.0  0.0\n    506 kworker/R-btrfs  0.0  0.0\n    507 kworker/R-btrfs  0.0  0.0\n    508 kworker/R-btrfs  0.0  0.0\n    509 kworker/R-btrfs  0.0  0.0\n    510 kworker/R-btrfs  0.0  0.0\n    511 kworker/R-btrfs  0.0  0.0\n    512 kworker/R-btrfs  0.0  0.0\n    513 kworker/R-btrfs  0.0  0.0\n    514 kworker/R-btrfs  0.0  0.0\n    553 kworker/R-amdgp  0.0  0.0\n    554 kworker/R-ttm    0.0  0.0\n    555 kworker/R-amdgp  0.0  0.0\n    556 kworker/R-amdgp  0.0  0.0\n    557 kworker/R-dm_vb  0.0  0.0\n    558 card1-crtc0      0.0  0.0\n    559 card1-crtc1      0.0  0.0\n    560 card1-crtc2      0.0  0.0\n    561 card1-crtc3      0.0  0.0\n    562 kworker/R-gfx    0.0  0.0\n    563 kworker/R-comp_  0.0  0.0\n    564 kworker/R-comp_  0.0  0.0\n    565 kworker/R-comp_  0.0  0.0\n    566 kworker/R-comp_  0.0  0.0\n    567 kworker/R-comp_  0.0  0.0\n    568 kworker/R-comp_  0.0  0.0\n    569 kworker/R-comp_  0.0  0.0\n    570 kworker/R-comp_  0.0  0.0\n    571 kworker/R-sdma0  0.0  0.0\n    572 kworker/R-vcn_d  0.0  0.0\n    573 kworker/R-vcn_e  0.0  0.0\n    574 kworker/R-vcn_e  0.0  0.0\n    575 kworker/R-jpeg_  0.0  0.0\n    651 psimon           0.0  0.0\n    708 psimon           0.0  0.0\n    813 kworker/R-cfg80  0.0  0.0\n    893 jbd2/nvme0n1p2-  0.0  0.0\n    894 kworker/R-ext4-  0.0  0.0\n   1040 psimon           0.0  0.0\n   1061 avahi-daemon     0.0  0.0\n   1242 kworker/R-rpcio  0.0  0.0\n   1243 kworker/R-xprti  0.0  0.0\n   1671 krfcommd         0.0  0.0\n   2234 httpd            0.0  0.0\n   2235 httpd            0.0  0.0\n   2236 httpd            0.0  0.0\n   3949 (sd-pam)         0.0  0.0\n   4485 gnome-session-c  0.0  0.0\n   4613 dbus-broker-lau  0.0  0.0\n   4837 ibus-dconf       0.0  0.0\n   5000 fusermount3      0.0  0.0\n   7412 dconf            0.0  0.0\n   8281 bwrap            0.0  0.0\n  49912 p11-kit-server   0.0  0.0\n  72784 bwrap            0.0  0.0\n  72787 bwrap            0.0  0.0\n  72788 glycin-image-rs  0.0  0.0\n 204263 kworker/7:2      0.0  0.0\n 205729 kworker/3:0-eve  0.0  0.0\n 207336 kworker/15:0     0.0  0.0\n 211541 kworker/13:2-ev  0.0  0.0\n 241649 kworker/5:1-cgr  0.0  0.0\n 242986 kworker/11:2-ev  0.0  0.0\n 243125 kworker/14:0-ev  0.0  0.0\n 243160 kworker/0:1      0.0  0.0\n 244109 kworker/9:1-eve  0.0  0.0\n 244456 kworker/1:2-eve  0.0  0.0\n 244635 kworker/u69:8-t  0.0  0.0\n 245324 kworker/6:0-eve  0.0  0.0\n 248848 kworker/2:0-eve  0.0  0.0\n 249593 kworker/10:0-ev  0.0  0.0\n 250452 kworker/4:0-eve  0.0  0.0\n 252240 kworker/12:2     0.0  0.0\n 252359 kworker/8:2-eve  0.0  0.0\n 253126 kworker/u69:1-t  0.0  0.0\n 253127 kworker/u69:2-t  0.0  0.0\n 253128 kworker/u69:12-  0.0  0.0\n 253196 kworker/u69:16   0.0  0.0\n 253391 systemd-userwor  0.0  0.0\n 253392 systemd-userwor  0.0  0.0\n 253393 systemd-userwor  0.0  0.0\n 253814 kworker/1:0-eve  0.0  0.0\n 253851 kworker/4:2-eve  0.0  0.0\n 254134 kworker/10:1-ev  0.0  0.0\n 254138 kworker/u68:12-  0.0  0.0\n 254139 kworker/u68:17-  0.0  0.0\n 254140 kworker/15:1     0.0  0.0\n 254143 kworker/2:2-eve  0.0  0.0\n 254144 kworker/14:2     0.0  0.0\n 254788 kworker/u65:9    0.0  0.0\n",
+    "nota_ps": "%CPU é a média desde o início do processo; não é uma amostra instantânea.",
+    "loadavg": "0.80 0.63 0.71 1/1527 255068",
+    "alimentacao": {
+      "/sys/class/power_supply/ADP0/online": "1",
+      "/sys/class/power_supply/BAT0/capacity": "100",
+      "/sys/class/power_supply/BAT0/status": "Full"
+    }
+  },
+  "piloto": false,
+  "rodadas": 10,
+  "cpu": 2,
+  "seed_ordem": 9512026,
+  "ordem": [
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      10,
+      7
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      10,
+      6
+    ]
+  ],
+  "perf": "/home/fersuaiden/Área de trabalho/Faculdade/DCO/ATIVIDADE2/.ferramentas/perf/usr/bin/perf",
+  "perf_versao": "perf version 7.1.13-100.fc43.x86_64",
+  "gcc": "gcc (GCC) 15.3.1 20260722 (Red Hat 15.3.1-1)\nCopyright (C) 2025 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "kernel": "Linux fedora 7.1.13-100.fc43.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Sep  2 14:02:20 UTC 2026 x86_64 GNU/Linux\n",
+  "lscpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  16\nOn-line CPU(s) list:                     0-15\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 7 5700U with Radeon Graphics\nCPU family:                              23\nModel:                                   104\nThread(s) per core:                      2\nCore(s) per socket:                      8\nSocket(s):                               1\nStepping:                                1\nFrequency boost:                         enabled\nCPU(s) scaling MHz:                      71%\nCPU max MHz:                             4373.8579\nCPU min MHz:                             411.6580\nBogoMIPS:                                3593.43\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca\nVirtualization:                          AMD-V\nL1d cache:                               256 KiB (8 instances)\nL1i cache:                               256 KiB (8 instances)\nL2 cache:                                4 MiB (8 instances)\nL3 cache:                                8 MiB (2 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-15\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Mitigation; untrained return thunk; SMT enabled with STIBP protection\nVulnerability Spec rstack overflow:      Mitigation; Safe RET\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n",
+  "sistema": "NAME=\"Fedora Linux\"\nVERSION=\"43 (Workstation Edition)\"\nRELEASE_TYPE=stable\nID=fedora\nVERSION_ID=43\nVERSION_CODENAME=\"\"\nPRETTY_NAME=\"Fedora Linux 43 (Workstation Edition)\"\nANSI_COLOR=\"0;38;2;60;110;180\"\nLOGO=fedora-logo-icon\nCPE_NAME=\"cpe:/o:fedoraproject:fedora:43\"\nDEFAULT_HOSTNAME=\"fedora\"\nHOME_URL=\"https://fedoraproject.org/\"\nDOCUMENTATION_URL=\"https://docs.fedoraproject.org/en-US/fedora/f43/\"\nSUPPORT_URL=\"https://ask.fedoraproject.org/\"\nBUG_REPORT_URL=\"https://bugzilla.redhat.com/\"\nREDHAT_BUGZILLA_PRODUCT=\"Fedora\"\nREDHAT_BUGZILLA_PRODUCT_VERSION=43\nREDHAT_SUPPORT_PRODUCT=\"Fedora\"\nREDHAT_SUPPORT_PRODUCT_VERSION=43\nSUPPORT_END=2026-12-02\nVARIANT=\"Workstation Edition\"\nVARIANT_ID=workstation\n",
+  "perf_event_paranoid": "2",
+  "eventos": [
+    "L1-dcache-loads:u",
+    "L1-dcache-load-misses:u",
+    "branch-instructions:u",
+    "branch-misses:u"
+  ],
+  "escopo": "zeramento e multiplicacao; contadores de usuario com controle enable/disable e pequeno overhead de controle",
+  "aquecimento": "sem chamada previa no processo; piloto separado nao integra amostra",
+  "analise_cache": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "analise_branch": [
+    1,
+    2,
+    5,
+    6
+  ],
+  "fontes_sha256": {
+    "Main.c": "addae70653c2aae1716cf85030f318b16b589a746b1516459ba3a55a7ad9a3cc",
+    "Multiplica.h": "057c2284e7dc4e851d3d264d2a8783698c578196939fa696347896278b878e6f",
+    "multiplica.c": "31162b205a6a1aefa55ce3fc5db75515acdeb88762c4f53fe78362df4711c849",
+    "Makefile": "8f5f7a6f3776a3c2b24b3f9a0c633ab2be5ddacc13949ceffae92411d87919cb",
+    "TestaMultiplica.c": "959c7aa5c032490172f561bcd30230155538de9dc6c52a305d4a5c1ad5cfbdaa",
+    "scripts/coletar.py": "0c2ab16ebae556f9034fa10a0497418d76a047bd1dcc66be06d5d2e3e87b3d74"
+  },
+  "binario_sha256": "1cf3be0d624ff8c68736de922243278f186c021b74671f092d0876fb14208ca3",
+  "flags": "-std=c11 -g -O0 -Wall -Wextra -Werror (TAMANHO e BLOCO registrados em cada linha)",
+  "scaling_governor": "powersave",
+  "scaling_driver": "amd-pstate-epp",
+  "fim_utc": "2026-09-09T23:47:01.452917+00:00",
+  "ambiente_fim": {
+    "instante_utc": "2026-09-09T23:47:01.519414+00:00",
+    "processos": "    PID COMMAND         %CPU %MEM\n   4531 gnome-shell      6.6  1.0\n   7353 code             1.5  3.7\n   6742 code             1.4  2.4\n 245148 code             1.3  2.0\n   6524 code             1.0  1.0\n 247793 code             0.9  2.4\n   6310 code             0.7  1.4\n    876 irq/77-rtw89_pc  0.7  0.0\n 223320 code             0.6  2.0\n 254811 python           0.5  0.1\n   4897 pipewire-pulse   0.3  0.1\n   4515 pipewire         0.3  0.1\n   1231 containerd       0.2  0.2\n 223606 codex            0.2  0.8\n 253737 kworker/u65:8-b  0.2  0.0\n    144 kswapd0          0.1  0.0\n 244418 gnome-text-edit  0.1  0.9\n   4672 ibus-daemon      0.1  0.1\n   7659 code             0.1  0.5\n    517 btrfs-transacti  0.1  0.0\n   1286 dockerd          0.1  0.3\n     16 rcu_preempt      0.1  0.0\n    124 kcompactd0       0.1  0.0\n   7476 code             0.1  0.5\n 245263 kworker/u64:2-g  0.1  0.0\n    919 systemd-oomd     0.0  0.0\n 254259 kworker/u66:5-b  0.0  0.0\n   1976 containerd-shim  0.0  0.0\n 237531 kworker/u64:0-c  0.0  0.0\n 235493 kworker/u65:0-b  0.0  0.0\n 211654 kworker/u64:1-s  0.0  0.0\n 244458 kworker/u65:7-b  0.0  0.0\n   4896 gnome-software   0.0  0.2\n 244103 kworker/u65:4-b  0.0  0.0\n 250818 kworker/u66:4-e  0.0  0.0\n 231615 kworker/u65:13-  0.0  0.0\n 244457 kworker/u65:6-b  0.0  0.0\n   4516 wireplumber      0.0  0.2\n 241955 kworker/u65:3-b  0.0  0.0\n 231629 kworker/u65:30-  0.0  0.0\n 231627 kworker/u65:28-  0.0  0.0\n    951 NetworkManager   0.0  0.1\n   4893 localsearch-3    0.0  0.2\n   3946 systemd          0.0  0.1\n 248013 kworker/u65:2-b  0.0  0.0\n 231919 kworker/u66:8-b  0.0  0.0\n 223356 code             0.0  0.6\n 234898 kworker/u66:0-b  0.0  0.0\n 231621 kworker/u65:20-  0.0  0.0\n 231710 kworker/u66:3-b  0.0  0.0\n 251675 kworker/u65:5-e  0.0  0.0\n 211556 kworker/u65:26-  0.0  0.0\n 231918 kworker/u66:7-e  0.0  0.0\n   5140 ibus-engine-sim  0.0  0.0\n   7272 code             0.0  0.5\n 241161 kworker/u66:2-b  0.0  0.0\n 232010 kworker/u66:9-b  0.0  0.0\n 232069 kworker/u66:14-  0.0  0.0\n 241954 kworker/u65:1-b  0.0  0.0\n 250817 kworker/u66:1-b  0.0  0.0\n   6563 code             0.0  0.4\n 232068 kworker/u66:13-  0.0  0.0\n 232070 kworker/u66:15-  0.0  0.0\n 241163 kworker/u66:12-  0.0  0.0\n   4841 ibus-extension-  0.0  0.1\n 180158 nautilus         0.0  0.5\n 248839 kworker/0:0-eve  0.0  0.0\n    969 polkitd          0.0  0.1\n 241162 kworker/u66:11-  0.0  0.0\n    920 systemd-resolve  0.0  0.0\n   1223 tuned            0.0  0.1\n   2047 postgres         0.0  0.0\n   1007 upowerd          0.0  0.1\n   4486 uresourced       0.0  0.0\n    953 avahi-daemon     0.0  0.0\n      1 systemd          0.0  0.1\n 231594 kworker/2:1-eve  0.0  0.0\n   2048 python           0.0  0.0\n   5178 gvfsd-trash      0.0  0.1\n 231602 kworker/8:1-mm_  0.0  0.0\n 231608 kworker/14:1-mm  0.0  0.0\n 231598 kworker/6:1-mm_  0.0  0.0\n 231596 kworker/4:1-mm_  0.0  0.0\n 244622 kworker/10:2-mm  0.0  0.0\n 240074 codex-code-mode  0.0  0.0\n 231606 kworker/12:1-mm  0.0  0.0\n   4118 dbus-broker      0.0  0.0\n 231872 sssd_kcm         0.0  0.0\n   8754 code             0.0  0.2\n   1267 tuned-ppd        0.0  0.1\n    950 dbus-broker      0.0  0.0\n   4718 gsd-media-keys   0.0  0.1\n   1974 containerd-shim  0.0  0.0\n   1973 containerd-shim  0.0  0.0\n   4969 goa-identity-se  0.0  0.0\n 231605 kworker/11:1-mm  0.0  0.0\n 231603 kworker/9:2-mm_  0.0  0.0\n 231593 kworker/1:1-mm_  0.0  0.0\n     15 ksoftirqd/0      0.0  0.0\n 231609 kworker/15:2-mm  0.0  0.0\n 231607 kworker/13:1-ev  0.0  0.0\n 231599 kworker/7:1-mm_  0.0  0.0\n 231595 kworker/3:1-mm_  0.0  0.0\n 247453 kworker/u68:1-t  0.0  0.0\n    465 irq/57-MSFT0001  0.0  0.0\n 236011 kworker/u68:2-t  0.0  0.0\n   6897 mutter-x11-fram  0.0  0.2\n 247888 kworker/5:0-mm_  0.0  0.0\n   2053 httpd            0.0  0.0\n 237602 kworker/u68:9-t  0.0  0.0\n   5024 xdg-desktop-por  0.0  0.2\n   4762 gsd-sharing      0.0  0.1\n    994 systemd-machine  0.0  0.0\n 247560 kworker/u68:15-  0.0  0.0\n   5736 xdg-desktop-por  0.0  0.1\n   4701 gsd-housekeepin  0.0  0.0\n    984 systemd-homed    0.0  0.0\n  73683 wsdd             0.0  0.1\n   4494 gnome-session-s  0.0  0.1\n   1305 gdm              0.0  0.0\n   6754 Xwayland         0.0  0.1\n   5020 gvfs-afc-volume  0.0  0.0\n 244747 kworker/u68:0-r  0.0  0.0\n 244749 kworker/u68:3-t  0.0  0.0\n    663 systemd-journal  0.0  0.1\n   1206 wpa_supplicant   0.0  0.0\n   6849 gsd-xsettings    0.0  0.1\n   4725 gsd-power        0.0  0.1\n 236012 kworker/u68:4-t  0.0  0.0\n   4960 xdg-desktop-por  0.0  0.1\n 237604 kworker/u68:13-  0.0  0.0\n   1288 ollama           0.0  0.0\n   1035 psimon           0.0  0.0\n 247559 kworker/u68:14-  0.0  0.0\n   1257 abrt-dump-journ  0.0  0.1\n   8640 ibus-engine-tb   0.0  0.2\n 237601 kworker/u68:7-t  0.0  0.0\n   4615 at-spi2-registr  0.0  0.0\n    706 systemd-udevd    0.0  0.0\n   1256 abrt-dump-journ  0.0  0.1\n   5253 gvfsd-metadata   0.0  0.1\n    991 systemd-logind   0.0  0.0\n   4758 gsd-screensaver  0.0  0.0\n   1258 abrt-dump-journ  0.0  0.1\n 237600 kworker/u68:6-r  0.0  0.0\n     68 ksoftirqd/1      0.0  0.0\n 247556 kworker/u68:11-  0.0  0.0\n   4895 evolution-alarm  0.0  0.2\n   4689 gsd-color        0.0  0.0\n 223376 bash             0.0  0.0\n 244940 kworker/u68:5-t  0.0  0.0\n   1222 gssproxy         0.0  0.0\n    971 rtkit-daemon     0.0  0.0\n     18 rcu_exp_gp_kthr  0.0  0.0\n   4765 gsd-smartcard    0.0  0.1\n   8282 glycin-image-rs  0.0  0.0\n   2450 pcscd            0.0  0.0\n   4744 gsd-rfkill       0.0  0.0\n   4614 dbus-broker      0.0  0.0\n   4729 gsd-print-notif  0.0  0.1\n 248648 kworker/u68:16-  0.0  0.0\n   4711 gsd-keyboard     0.0  0.0\n   4673 gsd-a11y-settin  0.0  0.0\n   4695 gsd-datetime     0.0  0.1\n   4777 gsd-usb-protect  0.0  0.0\n   4661 gjs              0.0  0.2\n    550 kworker/10:1H-k  0.0  0.0\n   4784 gsd-wwan         0.0  0.1\n   4771 gsd-sound        0.0  0.0\n    551 kworker/11:1H-k  0.0  0.0\n     43 migration/8      0.0  0.0\n   1001 udisksd          0.0  0.1\n    608 kworker/14:1H-k  0.0  0.0\n    544 kworker/8:1H-kb  0.0  0.0\n 232400 kworker/u69:10-  0.0  0.0\n   4887 gjs              0.0  0.2\n   2324 postgres         0.0  0.0\n    595 kworker/9:1H-kb  0.0  0.0\n 247517 kworker/u68:8-t  0.0  0.0\n 247518 kworker/u68:10-  0.0  0.0\n 232063 kworker/u69:5-t  0.0  0.0\n   1170 ModemManager     0.0  0.0\n   2330 postgres         0.0  0.0\n    588 kworker/2:1H-kb  0.0  0.0\n     49 migration/10     0.0  0.0\n     55 migration/12     0.0  0.0\n    589 kworker/3:1H-kb  0.0  0.0\n    585 kworker/0:1H-kb  0.0  0.0\n    552 kworker/12:1H-k  0.0  0.0\n     26 ksoftirqd/2      0.0  0.0\n     19 migration/0      0.0  0.0\n    494 kworker/6:1H-kb  0.0  0.0\n     61 migration/14     0.0  0.0\n    648 kworker/7:1H-kb  0.0  0.0\n     97 migration/11     0.0  0.0\n    103 migration/13     0.0  0.0\n    586 kworker/4:1H-kb  0.0  0.0\n 235310 kworker/u69:3-t  0.0  0.0\n 235311 kworker/u69:4-t  0.0  0.0\n 235312 kworker/u69:6-t  0.0  0.0\n 235313 kworker/u69:7-t  0.0  0.0\n 235315 kworker/u69:9-t  0.0  0.0\n    959 chronyd          0.0  0.0\n   2331 postgres         0.0  0.0\n     25 migration/2      0.0  0.0\n    620 kworker/5:1H-kb  0.0  0.0\n     31 migration/4      0.0  0.0\n     67 migration/1      0.0  0.0\n 244634 kworker/u69:0-t  0.0  0.0\n     91 migration/9      0.0  0.0\n   5129 abrt-dbus        0.0  0.1\n   4649 evolution-sourc  0.0  0.2\n     37 migration/6      0.0  0.0\n     73 migration/3      0.0  0.0\n    109 migration/15     0.0  0.0\n     85 migration/7      0.0  0.0\n   4935 evolution-calen  0.0  0.1\n     79 migration/5      0.0  0.0\n   4889 gvfs-udisks2-vo  0.0  0.1\n   2083 colord           0.0  0.1\n    766 kworker/13:1H-k  0.0  0.0\n    695 systemd-userdbd  0.0  0.0\n    645 kworker/15:1H-k  0.0  0.0\n     32 ksoftirqd/4      0.0  0.0\n    976 accounts-daemon  0.0  0.0\n    594 kworker/1:1H-kb  0.0  0.0\n     74 ksoftirqd/3      0.0  0.0\n    954 bluetoothd       0.0  0.0\n   4632 gnome-shell-cal  0.0  0.1\n   3874 gdm-session-wor  0.0  0.1\n     38 ksoftirqd/6      0.0  0.0\n     44 ksoftirqd/8      0.0  0.0\n     56 ksoftirqd/12     0.0  0.0\n     50 ksoftirqd/10     0.0  0.0\n 235320 kworker/u69:15-  0.0  0.0\n 235318 kworker/u69:13-  0.0  0.0\n 235319 kworker/u69:14-  0.0  0.0\n 235316 kworker/u69:11-  0.0  0.0\n   5019 evolution-addre  0.0  0.1\n     62 ksoftirqd/14     0.0  0.0\n  73635 gvfsd-recent     0.0  0.1\n   4884 abrt-applet      0.0  0.1\n     86 ksoftirqd/7      0.0  0.0\n      2 kthreadd         0.0  0.0\n     80 ksoftirqd/5      0.0  0.0\n   4922 goa-daemon       0.0  0.1\n   3967 gnome-keyring-d  0.0  0.0\n   1113 abrtd            0.0  0.1\n    965 low-memory-moni  0.0  0.0\n    949 dbus-broker-lau  0.0  0.0\n    921 auditd           0.0  0.0\n     98 ksoftirqd/11     0.0  0.0\n    104 ksoftirqd/13     0.0  0.0\n    110 ksoftirqd/15     0.0  0.0\n    979 switcheroo-cont  0.0  0.0\n     92 ksoftirqd/9      0.0  0.0\n   4985 xdg-document-po  0.0  0.0\n   4883 ibus-portal      0.0  0.0\n   4123 gnome-session-i  0.0  0.0\n   2142 docker-proxy     0.0  0.0\n   6936 ibus-x11         0.0  0.2\n   2188 docker-proxy     0.0  0.0\n   2182 docker-proxy     0.0  0.0\n   2152 docker-proxy     0.0  0.0\n  73672 gvfsd-dnssd      0.0  0.0\n   4495 gvfsd            0.0  0.0\n   4104 dbus-broker-lau  0.0  0.0\n   1382 uresourced       0.0  0.0\n    837 kworker/u67:1-h  0.0  0.0\n   5164 gsd-printer      0.0  0.1\n   4708 gsd-disk-utilit  0.0  0.0\n    974 smartd           0.0  0.0\n    149 kworker/u67:0-h  0.0  0.0\n    130 irq/9-acpi       0.0  0.0\n  49907 flatpak-session  0.0  0.0\n   6464 chrome_crashpad  0.0  0.0\n   6352 code             0.0  0.1\n   4633 xdg-permission-  0.0  0.0\n   1219 cupsd            0.0  0.0\n   1053 alsactl          0.0  0.0\n    516 btrfs-cleaner    0.0  0.0\n  46548 ssh-agent        0.0  0.0\n  46544 gcr-ssh-agent    0.0  0.0\n   6356 code             0.0  0.1\n   4958 gvfs-gphoto2-vo  0.0  0.0\n   4936 gvfs-mtp-volume  0.0  0.0\n   4639 dconf-service    0.0  0.0\n   6361 code             0.0  0.0\n   4607 at-spi-bus-laun  0.0  0.0\n  73666 gvfsd-network    0.0  0.0\n   8280 bwrap            0.0  0.0\n   6100 gnome-keyring-d  0.0  0.0\n   4990 gvfs-goa-volume  0.0  0.0\n   4504 gvfsd-fuse       0.0  0.0\n   4092 gdm-wayland-ses  0.0  0.0\n   2332 postgres         0.0  0.0\n   2323 postgres         0.0  0.0\n   1304 atd              0.0  0.0\n    115 kdevtmpfs        0.0  0.0\n    119 kauditd          0.0  0.0\n     41 cpuhp/8          0.0  0.0\n     47 cpuhp/10         0.0  0.0\n     53 cpuhp/12         0.0  0.0\n     59 cpuhp/14         0.0  0.0\n     95 cpuhp/11         0.0  0.0\n    101 cpuhp/13         0.0  0.0\n    107 cpuhp/15         0.0  0.0\n      3 pool_workqueue_  0.0  0.0\n      4 kworker/R-rcu_g  0.0  0.0\n      5 kworker/R-sync_  0.0  0.0\n      6 kworker/R-kvfre  0.0  0.0\n      7 kworker/R-slub_  0.0  0.0\n      8 kworker/R-netns  0.0  0.0\n     10 kworker/0:0H-kb  0.0  0.0\n     13 kworker/R-mm_pe  0.0  0.0\n     17 rcu_exp_par_gp_  0.0  0.0\n     20 kprobe-optimize  0.0  0.0\n     21 idle_inject/0    0.0  0.0\n     22 cpuhp/0          0.0  0.0\n     23 cpuhp/2          0.0  0.0\n     24 idle_inject/2    0.0  0.0\n     28 kworker/2:0H-kb  0.0  0.0\n     29 cpuhp/4          0.0  0.0\n     30 idle_inject/4    0.0  0.0\n     34 kworker/4:0H-kb  0.0  0.0\n     35 cpuhp/6          0.0  0.0\n     36 idle_inject/6    0.0  0.0\n     40 kworker/6:0H-kb  0.0  0.0\n     42 idle_inject/8    0.0  0.0\n     46 kworker/8:0H-kb  0.0  0.0\n     48 idle_inject/10   0.0  0.0\n     52 kworker/10:0H-k  0.0  0.0\n     54 idle_inject/12   0.0  0.0\n     58 kworker/12:0H-k  0.0  0.0\n     60 idle_inject/14   0.0  0.0\n     64 kworker/14:0H-k  0.0  0.0\n     65 cpuhp/1          0.0  0.0\n     66 idle_inject/1    0.0  0.0\n     70 kworker/1:0H-kb  0.0  0.0\n     71 cpuhp/3          0.0  0.0\n     72 idle_inject/3    0.0  0.0\n     76 kworker/3:0H-kb  0.0  0.0\n     77 cpuhp/5          0.0  0.0\n     78 idle_inject/5    0.0  0.0\n     82 kworker/5:0H-kb  0.0  0.0\n     83 cpuhp/7          0.0  0.0\n     84 idle_inject/7    0.0  0.0\n     88 kworker/7:0H-kb  0.0  0.0\n     89 cpuhp/9          0.0  0.0\n     90 idle_inject/9    0.0  0.0\n     94 kworker/9:0H-kb  0.0  0.0\n     96 idle_inject/11   0.0  0.0\n    100 kworker/11:0H-k  0.0  0.0\n    102 idle_inject/13   0.0  0.0\n    106 kworker/13:0H-k  0.0  0.0\n    108 idle_inject/15   0.0  0.0\n    112 kworker/15:0H-k  0.0  0.0\n    116 kworker/R-inet_  0.0  0.0\n    117 rcu_tasks_kthre  0.0  0.0\n    118 rcu_tasks_rude_  0.0  0.0\n    120 oom_reaper       0.0  0.0\n    123 kworker/R-write  0.0  0.0\n    125 ksmd             0.0  0.0\n    126 khugepaged       0.0  0.0\n    127 kworker/R-kbloc  0.0  0.0\n    128 kworker/R-blkcg  0.0  0.0\n    129 kworker/R-kinte  0.0  0.0\n    131 kworker/R-tpm_d  0.0  0.0\n    132 kworker/R-ata_s  0.0  0.0\n    133 kworker/R-md_bi  0.0  0.0\n    134 kworker/R-edac-  0.0  0.0\n    135 kworker/R-devfr  0.0  0.0\n    136 watchdogd        0.0  0.0\n    138 kworker/R-quota  0.0  0.0\n    139 irq/25-AMD-Vi0-  0.0  0.0\n    140 irq/26-AMD-Vi0-  0.0  0.0\n    141 irq/27-AMD-Vi0-  0.0  0.0\n    145 kworker/R-crypt  0.0  0.0\n    148 kworker/R-kthro  0.0  0.0\n    150 kworker/R-acpi_  0.0  0.0\n    154 scsi_eh_0        0.0  0.0\n    155 kworker/R-scsi_  0.0  0.0\n    156 scsi_eh_1        0.0  0.0\n    157 kworker/R-scsi_  0.0  0.0\n    159 kworker/R-dm_bu  0.0  0.0\n    166 kworker/R-mld    0.0  0.0\n    167 kworker/R-ipv6_  0.0  0.0\n    168 kworker/R-kstrp  0.0  0.0\n    486 kworker/R-nvme-  0.0  0.0\n    487 kworker/R-nvme-  0.0  0.0\n    488 kworker/R-nvme-  0.0  0.0\n    489 kworker/R-nvme-  0.0  0.0\n    503 kworker/R-btrfs  0.0  0.0\n    504 kworker/R-btrfs  0.0  0.0\n    505 kworker/R-btrfs  0.0  0.0\n    506 kworker/R-btrfs  0.0  0.0\n    507 kworker/R-btrfs  0.0  0.0\n    508 kworker/R-btrfs  0.0  0.0\n    509 kworker/R-btrfs  0.0  0.0\n    510 kworker/R-btrfs  0.0  0.0\n    511 kworker/R-btrfs  0.0  0.0\n    512 kworker/R-btrfs  0.0  0.0\n    513 kworker/R-btrfs  0.0  0.0\n    514 kworker/R-btrfs  0.0  0.0\n    553 kworker/R-amdgp  0.0  0.0\n    554 kworker/R-ttm    0.0  0.0\n    555 kworker/R-amdgp  0.0  0.0\n    556 kworker/R-amdgp  0.0  0.0\n    557 kworker/R-dm_vb  0.0  0.0\n    558 card1-crtc0      0.0  0.0\n    559 card1-crtc1      0.0  0.0\n    560 card1-crtc2      0.0  0.0\n    561 card1-crtc3      0.0  0.0\n    562 kworker/R-gfx    0.0  0.0\n    563 kworker/R-comp_  0.0  0.0\n    564 kworker/R-comp_  0.0  0.0\n    565 kworker/R-comp_  0.0  0.0\n    566 kworker/R-comp_  0.0  0.0\n    567 kworker/R-comp_  0.0  0.0\n    568 kworker/R-comp_  0.0  0.0\n    569 kworker/R-comp_  0.0  0.0\n    570 kworker/R-comp_  0.0  0.0\n    571 kworker/R-sdma0  0.0  0.0\n    572 kworker/R-vcn_d  0.0  0.0\n    573 kworker/R-vcn_e  0.0  0.0\n    574 kworker/R-vcn_e  0.0  0.0\n    575 kworker/R-jpeg_  0.0  0.0\n    651 psimon           0.0  0.0\n    708 psimon           0.0  0.0\n    813 kworker/R-cfg80  0.0  0.0\n    893 jbd2/nvme0n1p2-  0.0  0.0\n    894 kworker/R-ext4-  0.0  0.0\n   1040 psimon           0.0  0.0\n   1061 avahi-daemon     0.0  0.0\n   1242 kworker/R-rpcio  0.0  0.0\n   1243 kworker/R-xprti  0.0  0.0\n   1671 krfcommd         0.0  0.0\n   2234 httpd            0.0  0.0\n   2235 httpd            0.0  0.0\n   2236 httpd            0.0  0.0\n   3949 (sd-pam)         0.0  0.0\n   4485 gnome-session-c  0.0  0.0\n   4613 dbus-broker-lau  0.0  0.0\n   4837 ibus-dconf       0.0  0.0\n   5000 fusermount3      0.0  0.0\n   7412 dconf            0.0  0.0\n   8281 bwrap            0.0  0.0\n  49912 p11-kit-server   0.0  0.0\n  72784 bwrap            0.0  0.0\n  72787 bwrap            0.0  0.0\n  72788 glycin-image-rs  0.0  0.0\n 204263 kworker/7:2      0.0  0.0\n 205729 kworker/3:0-eve  0.0  0.0\n 207336 kworker/15:0     0.0  0.0\n 211541 kworker/13:2-mm  0.0  0.0\n 241649 kworker/5:1-cgr  0.0  0.0\n 242986 kworker/11:2-ev  0.0  0.0\n 243125 kworker/14:0-ev  0.0  0.0\n 243160 kworker/0:1      0.0  0.0\n 244109 kworker/9:1-eve  0.0  0.0\n 244456 kworker/1:2-eve  0.0  0.0\n 244635 kworker/u69:8-t  0.0  0.0\n 245324 kworker/6:0-cgr  0.0  0.0\n 248848 kworker/2:0-eve  0.0  0.0\n 249593 kworker/10:0-ev  0.0  0.0\n 250452 kworker/4:0-eve  0.0  0.0\n 252240 kworker/12:2     0.0  0.0\n 252359 kworker/8:2-eve  0.0  0.0\n 253126 kworker/u69:1-t  0.0  0.0\n 253127 kworker/u69:2-t  0.0  0.0\n 253128 kworker/u69:12-  0.0  0.0\n 253196 kworker/u69:16   0.0  0.0\n 253391 systemd-userwor  0.0  0.0\n 253392 systemd-userwor  0.0  0.0\n 253393 systemd-userwor  0.0  0.0\n 253814 kworker/1:0-eve  0.0  0.0\n 253851 kworker/4:2-eve  0.0  0.0\n 254134 kworker/10:1-ev  0.0  0.0\n 254138 kworker/u68:12-  0.0  0.0\n 254139 kworker/u68:17-  0.0  0.0\n 254140 kworker/15:1     0.0  0.0\n 254143 kworker/2:2-eve  0.0  0.0\n 254144 kworker/14:2     0.0  0.0\n 254788 kworker/u65:9    0.0  0.0\n 255304 kworker/6:2-eve  0.0  0.0\n 255397 ps               0.0  0.0\n",
+    "nota_ps": "%CPU é a média desde o início do processo; não é uma amostra instantânea.",
+    "loadavg": "1.00 0.71 0.73 1/1528 255397",
+    "alimentacao": {
+      "/sys/class/power_supply/ADP0/online": "1",
+      "/sys/class/power_supply/BAT0/capacity": "100",
+      "/sys/class/power_supply/BAT0/status": "Full"
+    }
+  },
+  "medicoes_sha256": "bd6b03c91264f1d2432ea40d90647a4312218063b653310b13e5f45b287a5089",
+  "completa": true
+}
