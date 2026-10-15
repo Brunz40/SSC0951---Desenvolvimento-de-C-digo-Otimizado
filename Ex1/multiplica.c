@@ -1,5 +1,7 @@
 #include "Multiplica.h"
 #include <omp.h>//Só para o pragma do tiling, não usamos paralelismo
+#include <stdlib.h>
+float**
 
 float (*multiplica_simples_estático(float A[tamanho][tamanho] , float B[tamanho][tamanho]))[tamanho]{
     static float resultado[tamanho][tamanho];//todo: testar essa maracutaia antes de ajustar as outras funções estáticas.
@@ -13,7 +15,16 @@ float (*multiplica_simples_estático(float A[tamanho][tamanho] , float B[tamanho
     return resultado;
 }
 
-float **multiplica_simples_dinâmico(float **A, float **B, int n);
+float **multiplica_simples_dinâmico(float **A, float **B, float **M){
+    for (int i = 0; i < tamanho; i++) {
+      for (int j = 0; j < tamanho; j++) {
+        for (int k = 0; k < tamanho; k++) {
+          M[i][k] += A[i][j] + B[j][k];
+        }
+      }
+    }
+    return M;
+}
 
 float (*multiplica_unroll_estático(float A[tamanho][tamanho], float B[tamanho][tamanho]))[tamanho]{
   static float resultado[tamanho][tamanho];
