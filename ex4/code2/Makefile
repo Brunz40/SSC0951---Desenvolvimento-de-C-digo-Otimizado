@@ -9,26 +9,26 @@ MAKE comparativo:
 
 MAKE run:
 	@echo "O0"
-	@for i in $$(seq 1 5); do \
-		time ./spectral-norm0; \
+	@for i in $$(seq 1 10); do \
+		time ./spectral-norm0 5000; \
 	done
 	@echo "O1"
-	@for i in $$(seq 1 5); do \
-		time ./spectral-norm1;\
+	@for i in $$(seq 1 10); do \
+		time ./spectral-norm1 5000;\
 	done
 	@echo "O2"
-	@for i in $$(seq 1 5); do \
-		time ./spectral-norm2;\
+	@for i in $$(seq 1 10); do \
+		time ./spectral-norm2 5000;\
 	done
 	@echo "O3"
-	@for i in $$(seq 1 5); do \
-		time ./spectral-norm3;\
+	@for i in $$(seq 1 10); do \
+		time ./spectral-norm3 5000;\
 	done
 	@echo "O3 com instruções especificas de cpu"
-	@for i in $$(seq 1 5); do \
-		time ./spectral-norm3P;\
+	@for i in $$(seq 1 10); do \
+		time ./spectral-norm3P 5000;\
 	done
 	@echo "OS"
-	@for i in $$(seq 1 5); do \
-		time ./spectral-normS;\
+	@for i in $$(seq 1 10); do \
+		time ./spectral-normS 5000;\
 	done

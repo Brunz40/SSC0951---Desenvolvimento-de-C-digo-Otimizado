@@ -11,25 +11,25 @@ MAKE comparativo:
 MAKE run:
 	@echo "O0"
 	@for i in $$(seq 1 5); do \
-		time ./mandelbrot0 >> imagem.pbm;\
+		time ./mandelbrot0 10000 output.pbm;\
 	done
 	@echo "O1"
 	@for i in $$(seq 1 5); do \
-		time ./mandelbrot1 >> imagem.pbm;\
+		time ./mandelbrot1 10000 output.pbm;\
 	done
 	@echo "O2"
 	@for i in $$(seq 1 5); do \
-		time ./mandelbrot2 >> imagem.pbm;\
+		time ./mandelbrot2 10000 output.pbm;\
 	done
 	@echo "O3"
 	@for i in $$(seq 1 5); do \
-		time ./mandelbrot3 >> imagem.pbm;\
+		time ./mandelbrot3 10000 output.pbm;\
 	done
 	@echo "O3 com instruções especificas de cpu"
 	@for i in $$(seq 1 5); do \
-		time ./mandelbrot3P >> imagem.pbm;\
+		time ./mandelbrot3P 10000 output.pbm;\
 	done
 	@echo "OS"
 	@for i in $$(seq 1 5); do \
-		time ./mandelbrotS >> imagem.pbm;\
+		time ./mandelbrotS 10000 output.pbm;\
 	done

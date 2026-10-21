@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int A(int i, int j) { return ((i + j) * (i + j + 1) / 2 + i + 1); }//inline é especifico para substituições de o2 e o3, não funciona com o0
+static inline int A(int i, int j) { return ((i + j) * (i + j + 1) / 2 + i + 1); }//inline é especifico para substituições de o2 e o3, não funciona com o0
 
 double dot(double *v, double *u, int n) {
   int i;
@@ -67,6 +67,8 @@ int main(int argc, char **argv) {
   }
 
   printf("%.9f\n", sqrt(dot(u, v, n) / dot(v, v, n)));
-
+  free(u);
+  free(v);
+  free(tmp);
   return 0;
 }
