@@ -3,7 +3,7 @@ SRC = Main.c multiplica.c
 OBJ = $(SRC:.c=.o)
 
 CFLAGS_TESTE = -g -O0 -DDEBUG -Wall
-CFLAGS_PERFILAGEM = -g -O0 -DDEBUG -Wall -pg
+CFLAGS_PERFILAGEM = -g -OD -DDEBUG -Wall -pg
 #printa os resultados pra ver se ta tudo certo
 teste: executavel_teste
 executavel_teste: $(OBJ)
