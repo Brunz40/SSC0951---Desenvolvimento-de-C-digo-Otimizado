@@ -30,6 +30,7 @@ void libera_matriz(float **C){
 }
 
 void printa_matriz_din(float **C){
+  printf("\n printando matriz \n");
   for(int i=0;i<tamanho;i++){
     printf("\n");
     for (int j=0;j<tamanho;j++){
