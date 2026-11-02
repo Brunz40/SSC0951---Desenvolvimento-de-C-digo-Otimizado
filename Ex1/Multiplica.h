@@ -1,4 +1,5 @@
-#define tamanho 10
+#define tamanho 4
+#define blocksize 2
 void multiplica_simples_estático(float A[tamanho][tamanho],
                                  float B[tamanho][tamanho],
                                  float C[tamanho][tamanho]);

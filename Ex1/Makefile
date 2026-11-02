@@ -1,5 +1,5 @@
 CC = gcc
-SRC = Main.c multiplica.c
+SRC = Main.c multiplica.c aux.c
 OBJ = $(SRC:.c=.o)
 
 CFLAGS_TESTE = -g -O0 -DDEBUG -Wall
