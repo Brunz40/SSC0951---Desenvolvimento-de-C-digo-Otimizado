@@ -1,19 +1,36 @@
+
 CC = gcc
-SRC = Main.c multiplica.c aux.c
-OBJ = $(SRC:.c=.o)
 
-CFLAGS_TESTE = -g -O0 -DDEBUG -Wall
-CFLAGS_PERFILAGEM = -g -OD -DDEBUG -Wall -pg
-#printa os resultados pra ver se ta tudo certo
-teste: executavel_teste
-executavel_teste: $(OBJ)
-	gcc $(CFLAGS_TESTE) -o $@ $(SRC)
-	gcc $(CFLAGS_TESTE) -c $< -o $@
+SOURCE_FILES = Main.c multiplica.c aux.c
 
 
-#roda com GProf
-perfil:
-	gcc $(CFLAGS_PERFILAGEM) -o $@ $(SRC)
-	gcc $(CFLAGS_PERFILAGEM) -c $< -o $@
+OBJECT_FILES = $(SOURCE_FILES:.c=.o)
 
-#roda limpo
+
+CFLAGS_TEST = -g -O0 -DDEBUG -Wall
+
+
+CFLAGS_PROFILE = -g -Og -Wall -pg
+
+
+executavel_teste: $(OBJECT_FILES)
+	$(CC) $(CFLAGS_TEST) -o $@ $^
+
+perfil: $(OBJECT_FILES)
+	$(CC) $(CFLAGS_PROFILE) -o $@ $^
+
+# Regra para compilar arquivos .c em .o
+%.o: %.c
+	$(CC) $(CFLAGS_TEST) -c $< -o $@
+
+clean:
+	rm -f $(OBJECT_FILES) executavel_teste perfil
+
+converter:
+	gprof perfil gmon.out > perfil_relatorio.txt
+
+make run:
+	@for i in $$(seq 1 10); do \
+		./perfil;\
+		done
+

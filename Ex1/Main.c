@@ -54,5 +54,6 @@ int main(){
     printa_matriz_din(M_tiling);
 
     #endif
+    libera_matriz(Adin);
     return 0;
 }

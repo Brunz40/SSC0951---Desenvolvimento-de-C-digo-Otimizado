@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 float **cria_matriz_din(){
-  float **C = malloc(tamanho * sizeof(float));
+  float **C = malloc(tamanho * sizeof(float*));
   for (int i = 0; i < tamanho; i++) {
     C[i] = malloc(tamanho * sizeof(float));
     for(int j=0;j<tamanho;j++){
