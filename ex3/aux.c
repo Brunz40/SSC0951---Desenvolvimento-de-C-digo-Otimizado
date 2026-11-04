@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 // código para limpeza de buffer indicado pelo professor:
 // sudo dmidecode -t cache
 #define KB (1024)
@@ -12,8 +13,8 @@ void clean_cache() {
     dummy_buffer[i] += 1;
 }
 
-float* cria_vetor_rand(unsigned int tamanho){
-    float* vetor=malloc(tamanho*sizeof(int));
+int* cria_vetor_rand(unsigned int tamanho){
+    int* vetor=malloc(tamanho*sizeof(int));
     
     for (int i=0;i<tamanho;i++){
         vetor[i]=rand();
@@ -21,9 +22,15 @@ float* cria_vetor_rand(unsigned int tamanho){
     return vetor;
 }
 
-float* trocador(float* vetor, unsigned int posiçãoA, unsigned int posiçãoB){
+int* trocador(int* vetor, unsigned int posiçãoA, unsigned int posiçãoB){
     int aux=vetor[posiçãoA];
     vetor[posiçãoA]=vetor[posiçãoB];
     vetor[posiçãoB]=aux;
     return vetor;
+}
+
+void printa_vetor(int* vetor, unsigned int tamanho){
+    for (unsigned int i=0;i<tamanho;i++){
+        printf(" %d",vetor[i]);
+    }
 }
