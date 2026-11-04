@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 // código para limpeza de buffer indicado pelo professor:
 // sudo dmidecode -t cache
 #define KB (1024)
@@ -33,4 +34,11 @@ void printa_vetor(int* vetor, unsigned int tamanho){
     for (unsigned int i=0;i<tamanho;i++){
         printf(" %d",vetor[i]);
     }
+    printf("\n");
+}
+
+int* duplica_vetor(int* vetor, unsigned int tamanho){
+    int* novoVetor= malloc(tamanho*sizeof(int));
+    memcpy(novoVetor, vetor, tamanho*sizeof(int));
+    return novoVetor;
 }
