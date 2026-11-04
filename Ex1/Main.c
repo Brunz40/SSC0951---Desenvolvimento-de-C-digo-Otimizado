@@ -55,5 +55,10 @@ int main(){
 
     #endif
     libera_matriz(Adin);
+    libera_matriz(Bdin);
+    libera_matriz(M);
+    libera_matriz(M_interchange);
+    libera_matriz(M_unroll);
+    libera_matriz(M_tiling);
     return 0;
 }
