@@ -24,7 +24,7 @@ perfil: $(OBJECT_FILES)
 	$(CC) $(CFLAGS_TEST) -c $< -o $@
 
 clean:
-	rm -f $(OBJECT_FILES) executavel_teste perfil *.out
+	rm -f $(OBJECT_FILES) executavel_teste perfil *.out *.o
 
 converter:
 	gprof perfil gmon.out > perfil_relatorio.txt
