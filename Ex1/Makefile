@@ -10,7 +10,7 @@ OBJECT_FILES = $(SOURCE_FILES:.c=.o)
 CFLAGS_TEST = -g -O0 -DDEBUG -Wall
 
 
-CFLAGS_PROFILE = -g -Og -Wall -pg
+CFLAGS_PROFILE = -g -Og -Wall
 
 
 executavel_teste: $(OBJECT_FILES)
@@ -31,6 +31,6 @@ converter:
 
 make run:
 	@for i in $$(seq 1 10); do \
-		./perfil;\
+		perf record ./perfil;\
 		done
 
